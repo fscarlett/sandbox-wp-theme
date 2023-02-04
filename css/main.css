@@ -1,5 +1,5 @@
 /* 
-SPK Associates extra styles - Fox Scarlett foxscarlett.com  foxontheone@gmail.com
+Sandbox  extra styles - Fox Scarlett foxscarlett.com  foxontheone@gmail.com
 
 Contents:
 
@@ -129,7 +129,7 @@ p {
   color: #f7f7f7;
 }
 
-body .spk-footer-container {
+body .sandbox-footer-container {
   margin: 0 auto;
   padding: 0 15px;
   text-align: center;
@@ -146,7 +146,7 @@ body .spk-footer-container {
 
 
 
-.spk-footer-col {
+.sandbox-footer-col {
   /*width: 50%;*/
   padding: 50px 0 100px;
   text-align: left;
@@ -154,15 +154,15 @@ body .spk-footer-container {
 
 
 
-.spk-footer-col-1 {
+.sandbox-footer-col-1 {
   width: 60%;
 }
 
-.spk-footer-col-2 {
+.sandbox-footer-col-2 {
   width: 40%;
 }
 
-.spk-footer-col p {
+.sandbox-footer-col p {
   margin: 0;
   font-size: 1.8rem;
 }
@@ -190,19 +190,19 @@ body .site-footer a:hover i {
   color: #3af;
 }
 
-p.spk-footer-spaced {
+p.sandbox-footer-spaced {
   margin-bottom: 15px;
 }
 
 @media screen and (max-width: 1000px) {
-  .spk-footer-col {
+  .sandbox-footer-col {
     padding: 50px 0 100px;
   }
-  .spk-footer-col-1 {
+  .sandbox-footer-col-1 {
     width: 40%;
   }
 
-  .spk-footer-col-2 {
+  .sandbox-footer-col-2 {
     width: 60%;
   }
 }
@@ -214,11 +214,11 @@ p.spk-footer-spaced {
     justify-content: flex-start;
     align-items: flex-start;
   }
-  .spk-footer-col-1 {
+  .sandbox-footer-col-1 {
     width: 100%;
   }
 
-  .spk-footer-col-2 {
+  .sandbox-footer-col-2 {
     width: 100%;
   }
 }
