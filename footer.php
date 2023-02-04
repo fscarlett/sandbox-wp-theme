@@ -12,20 +12,54 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sandbox' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'sandbox' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'sandbox' ), 'sandbox', '<a href="https://foxscarlett.com">Fox Scarlett</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="sandbox-footer-container">
+			<div class="footer-cols-wrapper">
+				<div class="sandbox-footer-col sandbox-footer-col-1">
+					<div class="footer-nav">
+				
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location' => 'menu-footer',
+								'menu_id'        => 'footer-menu',
+							)
+						);
+						?>
+
+					</div>
+
+				</div>
+				<div class="sandbox-footer-col sandbox-footer-col-2">
+					
+					<p>Sandbox</p>
+					<p></p>
+					<p></p>
+					<p class="sandbox-footer-spaced"></p>
+
+
+					
+					<p><a href="tel:9253593229"></a></p>
+
+
+					<p class="sandbox-footer-spaced"><a href="tel:9255773165"></a></p>
+
+
+					<p class="sandbox-footer-spaced"><a href="mailto:info@sandboxc6.com">info@sandboxc6.com</a></p>
+
+				
+				</div>
+			</div>
+			<div class="footer-sub">
+				<p>©2022 - 2023 Sandbox  All rights reserved </p>
+			</div>
+
+
+		
+			
+		</div>
 	</footer><!-- #colophon -->
+
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
