@@ -10,7 +10,7 @@ typography
  home page
 
 
-
+highlight color: #02818C
 
  */
 
@@ -31,7 +31,7 @@ body {
   font-size: 1.6rem;
   font-family: 'Work Sans', sans-serif; 
   color: #fff;
-  background-color: #111;
+  background-color: #060809;
 }
 
 body.page {
