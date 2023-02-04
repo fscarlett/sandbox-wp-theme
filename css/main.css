@@ -29,7 +29,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
-  font-family: 'Work Sans', sans-serif; 
+  font-family: 'Poppins', sans-serif; 
   color: #fff;
   background-color: #060809;
 }
@@ -86,12 +86,10 @@ i.fa {
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
-/*	text-transform: uppercase;*/
 	letter-spacing: 1.5px;
 	font-weight: 700;
-  /*font-family: 'Work Sans', Arial, sans-serif; */
-/*  font-family: 'Space Grotesk', Arial, sans-serif; */
-  color: #222;
+  font-family: 'Roboto', Arial, sans-serif; 
+  color: #fff;
 }
 
 h1 {
