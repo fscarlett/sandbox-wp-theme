@@ -1,0 +1,121 @@
+/* 
+SPK Associates extra styles - Fox Scarlett foxscarlett.com  foxontheone@gmail.com
+
+Contents:
+
+1. reset
+typography
+ header
+ footer
+ home page
+
+
+
+
+ */
+
+/* main reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: 'Work Sans', sans-serif; 
+  color: #fff;
+  background-color: #111;
+}
+
+body.page {
+  margin-bottom: 0; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit; 
+}
+
+
+a:hover {
+	color: #e50795;
+	text-decoration: underline;
+}
+
+a:hover i {
+	color: #e50795;
+}
+
+
+a:hover h3,
+a:hover p {
+	/*color: #3af;*/
+	text-decoration: underline;
+}
+
+
+
+
+
+#main .entry-content a {
+  color: #00A6B2; 
+}
+
+#primary {
+  margin-bottom: 20px; 
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 300px;
+}
+
+i.fa {
+	font-size: 27px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+/*	text-transform: uppercase;*/
+	letter-spacing: 1.5px;
+	font-weight: 700;
+  /*font-family: 'Work Sans', Arial, sans-serif; */
+/*  font-family: 'Space Grotesk', Arial, sans-serif; */
+  color: #222;
+}
+
+h1 {
+	font-size: 3.8rem;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 2.6rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+	letter-spacing: 0.14px;
+  line-height: 1.5;
+}
+
+.site {
+  min-height: 100vh;
+  position: relative;
+}
+
+
