@@ -88,32 +88,36 @@ i.fa {
 h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 1.5px;
 	font-weight: 700;
-  font-family: 'Roboto', Arial, sans-serif; 
-  color: #fff;
+    font-family: 'Roboto', Arial, sans-serif; 
+    color: #fff;
 }
 
 h1 {
-	font-size: 3.8rem;
+	font-size: 8rem;
 	margin-bottom: 30px;
 }
 
 h2 {
-	font-size: 2.6rem;
+	font-size: 5.5rem;
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 3.6rem;
+}
+
+h4 {
+	font-size: 2.6rem;
 }
 
 p {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 	letter-spacing: 0.14px;
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 .site {
-  min-height: 100vh;
-  position: relative;
+    min-height: 100vh;
+    position: relative;
 }
 
 
@@ -190,6 +194,10 @@ body .site-footer a:hover i {
 
 p.sandbox-footer-spaced {
   margin-bottom: 15px;
+}
+
+.footer-sub p {
+	font-size: 1.3rem;
 }
 
 @media screen and (max-width: 1000px) {
