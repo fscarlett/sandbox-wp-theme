@@ -318,6 +318,13 @@ body .sandbox-container {
   padding: 0 25px;
 }
 
+body .sandbox-full-container {
+  margin: 0 auto;
+  min-height: 100vh;
+/*  max-width: 1320px;*/
+  padding: 0 25px;
+}
+
 /* ================== home =============== */
 
 .sandbox-home-heading-1 {
