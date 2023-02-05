@@ -126,7 +126,7 @@ p {
   margin: 0 auto;
   padding: 15px;
   min-height: 90px;
-  max-width: 1750px;
+  max-width: 1650px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -170,11 +170,12 @@ body header .header-container .site-branding .site-title {
 
 
 #primary-menu li.menu-item {
-  padding-right: 25px;
+  padding-right: 35px;
 }
 
 #primary-menu li.menu-item a {
-  font-size: 22px;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 
@@ -182,9 +183,10 @@ body header .header-container .site-branding .site-title {
 
 .site-footer {
   width: 100%;
-  padding: 30px 10px;
-  background-color: #111;
+  padding: 20px 10px;
+  background-color: #060809;
   color: #f7f7f7;
+  border-top: 1px solid #444;
 }
 
 body .sandbox-footer-container {
@@ -192,7 +194,7 @@ body .sandbox-footer-container {
   padding: 0 15px;
   text-align: center;
   min-height: 50px;
-  max-width: 1250px;
+  max-width: 1450px;
 }
 
 .footer-cols-wrapper {
@@ -213,11 +215,15 @@ body .sandbox-footer-container {
 
 
 .sandbox-footer-col-1 {
-  width: 60%;
+  width: 33%;
 }
 
 .sandbox-footer-col-2 {
-  width: 40%;
+  width: 33%;
+}
+
+.sandbox-footer-col-3 {
+  width: 33%;
 }
 
 .sandbox-footer-col p {
@@ -236,7 +242,6 @@ ul#footer-menu {
 
 #footer-menu li.menu-item a {
   font-size: 1.8rem;
-  text-transform: uppercase;
 }
 
 body .site-footer a:hover {

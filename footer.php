@@ -15,6 +15,11 @@
 		<div class="sandbox-footer-container">
 			<div class="footer-cols-wrapper">
 				<div class="sandbox-footer-col sandbox-footer-col-1">
+					<div>
+						<img src="http://sandbox.local/wp-content/uploads/2023/02/sandbox-logo-mark-color-tm-large.png" width="200px" height="150px">
+					</div>
+				</div>
+				<div class="sandbox-footer-col sandbox-footer-col-2">
 					<div class="footer-nav">
 				
 						<?php
@@ -29,7 +34,7 @@
 					</div>
 
 				</div>
-				<div class="sandbox-footer-col sandbox-footer-col-2">
+				<div class="sandbox-footer-col sandbox-footer-col-3">
 					
 					<p>Sandbox</p>
 					<p></p>
