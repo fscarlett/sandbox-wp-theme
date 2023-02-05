@@ -49,12 +49,12 @@ a:visited {
 
 
 a:hover {
-	color: #e50795;
+	color: #02818C;
 	text-decoration: underline;
 }
 
 a:hover i {
-	color: #e50795;
+	color: #02818C;
 }
 
 
@@ -122,6 +122,62 @@ p {
 
 
 /* ================ header =================   */
+.header-container {
+  margin: 0 auto;
+  padding: 15px;
+  min-height: 90px;
+  max-width: 1750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+body header .header-container .site-branding {
+  width: 160px;
+  padding: 15px;
+/*  position: relative;*/
+}
+
+body header .header-container .site-branding a {
+	position: absolute;
+	width: 150px;
+  z-index: 100;
+  background-color: #060809;
+}
+
+body header .header-container .site-branding .site-title {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: -100;
+    font-size: 12px;
+}
+
+.header-container .main-navigation {
+  width: auto;
+  margin-left: 30px;
+}
+
+
+
+
+#primary-menu li.menu-item {
+  padding-right: 25px;
+}
+
+#primary-menu li.menu-item a {
+  font-size: 22px;
+}
+
+
 /* ================ footer =================   */
 
 .site-footer {
