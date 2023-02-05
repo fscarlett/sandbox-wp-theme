@@ -384,3 +384,32 @@ body .sandbox-values-section {
 	margin-top: 70px;
 	margin-bottom: 20px;
 }
+
+
+/* ================== BLOG SINGLE ==================  */
+
+.blog-wrapper {
+	margin: 0 auto;
+	min-height: 100vh;
+	max-width: 1420px;
+/*	padding: 0 25px;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 10px;
+
+}
+
+.sandbox-single-blog-container {
+	min-height: 90vh;
+	width: 70%;
+	max-width: 1200px;
+	padding: 0 15px;	
+}
+
+.sandbox-blog-sidebar {
+	width: 30%;
+	padding: 15px;
+}
