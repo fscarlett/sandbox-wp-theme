@@ -356,3 +356,29 @@ body .sandbox-main-container {
 	color: #111;
 }
 
+
+/* ================= about ==============  */
+
+body .sandbox-values-heading-section {
+	padding-bottom: 0;
+}
+
+.sandbox-core-values-heading-wrapper {
+	padding: 10px 0;
+	border-bottom: 2px solid #eee;
+}
+
+body .sandbox-values-section {
+	padding-top: 0;
+}
+
+.sandbox-values-section p {
+	margin-top: 10px;
+	padding-right: 40px;
+}
+
+.sandbox-values-h3 {
+	font-size: 2.6rem;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
