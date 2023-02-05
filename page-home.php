@@ -26,15 +26,7 @@ get_header();
 				</section>
 
 
-				<section class="sandbox-home-blurb-wrapper">
-					
-				</section>
-
-
-				<section class="sandbox-home-image-section">
-					<div class="sandbox-image-wrapper">image here</div>
-				</section>
-
+				
 
 				
 
