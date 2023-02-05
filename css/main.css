@@ -332,6 +332,23 @@ body .sandbox-main-container {
   padding: 40px 25px;
 }
 
+.sandbox-cta-heading-jumbo {
+	font-family: Poppins, sans-serif;
+	font-size: 165px;
+	text-align: center;
+}
+
+.sandbox-link-jumbo {
+	font-size: 50px;
+	text-align: center;
+}
+
+.sandbox-about-bond-cta {
+	position: relative;
+	top: -50px;
+	text-align: center;
+}
+
 /* ================== home =============== */
 
 .sandbox-home-heading-1 {
