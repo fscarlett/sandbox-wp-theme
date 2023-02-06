@@ -413,3 +413,37 @@ body .sandbox-values-section {
 	width: 30%;
 	padding: 15px;
 }
+
+h1.entry-title {
+	font-size: 55px;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+.entry-meta .posted-on {
+	font-size: 1.8rem;
+}
+
+
+/* blog tablet */
+@media screen and (max-width: 950px) {
+
+.sandbox-single-blog-container {
+	min-height: 90vh;
+	width: 100%;
+/*	max-width: 1200px;*/
+	padding: 0 10px;	
+}
+
+.sandbox-blog-sidebar {
+	width: 100%;
+	padding: 10px;
+}
+
+h1.entry-title {
+	font-size: 35px;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+}
