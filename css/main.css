@@ -332,13 +332,19 @@ body .sandbox-full-container {
   margin: 0 auto;
   min-height: 100vh;
 /*  max-width: 1320px;*/
-  padding: 0 25px;
+  padding: 0;
 }
 
 body .sandbox-main-container {
   margin: 0 auto;
   max-width: 1320px;
   padding: 40px 25px;
+}
+
+body .sandbox-inner-container {
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 0 25px;
 }
 
 .sandbox-cta-heading-jumbo {
@@ -371,6 +377,11 @@ body .sandbox-main-container {
 
 .sandbox-para-squeeze {
 	max-width: 950px;
+}
+
+body #primary .sandbox-highlight-background .sandbox-product-section-link a {
+	color: #fff;
+	font-size: 3.0rem;
 }
 
 .sandbox-home-products-heading {
