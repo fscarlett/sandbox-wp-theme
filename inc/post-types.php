@@ -5,7 +5,7 @@ function sandbox_post_types() {
 //register Partner post type
   $partner_labels = array(
     'name'                => 'Partners',
-    'singular_name'       => 'partner',
+    'singular_name'       => 'Partner',
     'menu_name'           => 'Partners',
     'name_admin_bar'      => 'Partner',
     'add_new'             => 'Add New',
@@ -39,6 +39,45 @@ function sandbox_post_types() {
     );
 
   register_post_type( 'sandbox_partner', $partner_args );
+
+
+  //register Testimonial post type
+  $testimonial_labels = array(
+    'name'                => 'Testimonials',
+    'singular_name'       => 'Testimonial',
+    'menu_name'           => 'Testimonials',
+    'name_admin_bar'      => 'Testimonial',
+    'add_new'             => 'Add New',
+    'add_new_item'        => 'Add New Testimonial',
+    'new_item'            => 'New Testimonial',
+    'edit_item'           => 'Edit Testimonial',
+    'view_item'           => 'View Testimonial',
+    'all_items'           => 'All Testimonials',
+    'search_items'        => 'Search For Testimonials',
+    'parent_item_colon'   => 'Parent Testimonials:',
+    'not_found'           => 'No Testimonial found.',
+    'not_found_in_trash'  => 'No Testimonial found in trash.',
+    );
+  $testimonial_args = array(
+    'labels'              => $testimonial_labels,
+    'description'         => 'testimonial',
+    'public'              => true,
+    'publicly_queryable'  => true,
+    'show_ui'             => true,
+    'query_var'           => true,
+    'rewrite'             => array( 'slug' => 'testimonial' ),
+    'capability_type'     => 'post',
+    'map_meta_cap'        => true,
+    'exclude_from_search' => false,
+    'has_archive'         => false,
+    'hierarchical'        => false,
+    'taxonomies'          => array( 'category' ),
+    'menu_position'       => null,
+    'supports'            => array( 'title', 'editor', 'excerpt', 'page-attributes' ),
+    'menu_icon'           => 'dashicons-testimonial',
+    );
+
+  register_post_type( 'sandbox_testimonial', $testimonial_args );
 
 
 

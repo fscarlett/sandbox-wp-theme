@@ -418,6 +418,22 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	border-bottom: 2px solid #fff;
 }
 
+.sandbox-testimonials-card-title-wrapper {
+	position: relative;
+	top: -15px;
+	padding-left: 30px;
+}
+
+.sandbox-testimonials-card-title-wrapper h3 {
+	font-size: 20px;
+}
+
+.sandbox-testimonials-card-title-wrapper p {
+	margin: 0;
+	font-size: 16px;
+	font-style: italic;
+}
+
 /* ================== bond product page ==========  */
 .sandbox-btn-cta a {
 	background-color: #000;
