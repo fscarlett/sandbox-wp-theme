@@ -407,6 +407,17 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	background-size: cover;
 }
 
+.sandbox-testimonials-section {
+	min-height: 300px;
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 40px 25px;
+}
+
+.sandbox-testimonials-section h2 {
+	border-bottom: 2px solid #fff;
+}
+
 /* ================== bond product page ==========  */
 .sandbox-btn-cta a {
 	background-color: #000;
