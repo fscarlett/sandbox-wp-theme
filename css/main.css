@@ -365,6 +365,18 @@ body .sandbox-main-container {
 	color: #111;
 }
 
+.sandbox-highlight-background {
+	background-color: #02818C;
+}
+
+.sandbox-para-squeeze {
+	max-width: 950px;
+}
+
+.sandbox-home-products-heading {
+	border-bottom: 2px solid #eee;
+}
+
 /* ================== bond product page ==========  */
 .sandbox-btn-cta a {
 	background-color: #000;
