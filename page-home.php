@@ -35,6 +35,14 @@ get_header();
 					
 					<?php  the_content(); ?>
 
+					<section  class="sandbox-latest-posts-section">
+						<h2>Latest Blog Posts</h2>
+					</section>
+
+
+					<?php get_template_part( 'template-parts/sandbox-partners-section' ); ?>
+
+
 
 				<?php
 

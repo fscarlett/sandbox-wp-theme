@@ -388,6 +388,18 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	border-bottom: 2px solid #eee;
 }
 
+.sandbox-latest-posts-section {
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 40px 25px;
+}
+
+.sandbox-partners-section {
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 40px 25px;
+}	
+
 /* ================== bond product page ==========  */
 .sandbox-btn-cta a {
 	background-color: #000;
