@@ -40,7 +40,13 @@ get_header();
 					</section>
 
 
-					<?php get_template_part( 'template-parts/sandbox-partners-section' ); ?>
+					<?php get_template_part( 'template-parts/sandbox-partners-section' ); ?> 
+
+					<section style="background-image: url(http://sandbox.local/wp-content/uploads/2023/02/agave-web.png);" class="sandbox-home-bottom-image-section">
+						
+
+					</section>
+
 
 
 

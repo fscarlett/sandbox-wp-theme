@@ -400,6 +400,13 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	padding: 40px 25px;
 }	
 
+.sandbox-home-bottom-image-section {
+	height: 80vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /* ================== bond product page ==========  */
 .sandbox-btn-cta a {
 	background-color: #000;
