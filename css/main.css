@@ -472,6 +472,33 @@ body .sandbox-values-section {
 	margin-bottom: 20px;
 }
 
+.sandbox-team-section {
+	min-height: 300px;
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 40px 25px;
+}
+
+.sandbox-team-section h2 {
+	border-bottom: 2px solid #fff;
+}
+
+.sandbox-team-card-title-wrapper {
+	position: relative;
+	top: -15px;
+	padding-left: 30px;
+}
+
+.sandbox-team-card-title-wrapper h3 {
+	font-size: 20px;
+}
+
+.sandbox-team-card-title-wrapper p {
+	margin: 0;
+	font-size: 16px;
+	font-style: italic;
+}
+
 
 /* ================== BLOG SINGLE ==================  */
 

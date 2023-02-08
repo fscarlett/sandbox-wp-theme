@@ -1,40 +1,40 @@
-<section id="sandbox-testimonials-section" class="sandbox-testimonials-section">
+<section id="sandbox-team-section" class="sandbox-team-section">
 
-	<h2>Testimonials</h2>
+	<h2>Our Team</h2>
 
 
-	<div class="sandbox-testimonials-query-wrapper">
+	<div class="sandbox-team-query-wrapper">
 
 			<?php 
 
-				$sandbox_testimonial_args = array(
+				$sandbox_team_args = array(
 					'numberposts'	=> -1,
-					'post_type'		=> 'sandbox_testimonial',
+					'post_type'		=> 'sandbox_team',
 					'orderby'			=> 'date',
 					'order'				=> 'ASC',
 					'posts_per_page' => 50,
 
 				);
 
-				$the_query = new WP_Query( $sandbox_testimonial_args );
+				$the_query = new WP_Query( $sandbox_team_args );
 
 			 ?>
 
 			 <?php if( $the_query->have_posts() ): ?>
 
-				<div class="sandbox-testimonials-query-row">
+				<div class="sandbox-team-query-row">
 
 
 				 	<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
 
-				 		<div class="sandbox-testimonials-card">
+				 		<div class="sandbox-team-card">
 				 			
 				 				<?php the_content(); ?>
 				 			
 
 
-				 			<div class="sandbox-testimonials-card-title-wrapper">
+				 			<div class="sandbox-team-card-title-wrapper">
 				 			
 					 			<h3><?php the_title(); ?></h3>
 					 			<?php the_excerpt(); ?>
