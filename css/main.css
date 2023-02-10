@@ -231,6 +231,15 @@ ul#primary-menu  ul.sub-menu li.menu-item:last-child a {
 	padding-bottom: 15px;
 }
 
+body button.menu-toggle {
+	border-radius: 0;
+	background-color: #fff;
+	color: #000;
+	border: none;
+
+
+}
+
 /* ================ footer =================   */
 
 .site-footer {
