@@ -246,11 +246,25 @@ body #site-navigation.main-navigation.toggled ul {
     background: #fff;
     color: #111;
     padding: 10px;
-    width: 95vw;
+    width: 100vw;
+}
+
+body #site-navigation.main-navigation.toggled ul.sub-menu {
+	display: block;
+	position: initial;
+    top: initial;
+    left: initial;
+    background: #fff;
+    box-shadow: none;
 }
 
 body #site-navigation.main-navigation.toggled ul#primary-menu > li > a {
 	padding: 10px;
+}
+
+body .main-navigation.toggled li {
+    position: relative;
+    top: -15px;
 }
 
 /* ================ footer =================   */
