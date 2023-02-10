@@ -236,8 +236,21 @@ body button.menu-toggle {
 	background-color: #fff;
 	color: #000;
 	border: none;
+}
 
+body #site-navigation.main-navigation.toggled ul {
+	display: block;
+	position: absolute;
+    top: 120px;
+    left: 0;
+    background: #fff;
+    color: #111;
+    padding: 10px;
+    width: 95vw;
+}
 
+body #site-navigation.main-navigation.toggled ul#primary-menu > li > a {
+	padding: 10px;
 }
 
 /* ================ footer =================   */
