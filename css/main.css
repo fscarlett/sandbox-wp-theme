@@ -518,6 +518,22 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	padding-top: 110px;
 }
 
+/* -------- pricing template part ---------  */
+.sandbox-bond-pricing-section {
+	padding: 40px 0;
+}
+
+.sandbox-bond-pricing-section h2 {
+	border-bottom: 2px solid #fff;
+}
+
+
+.sandbox-pricing-cards-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
 
 /* ================= about ==============  */
 
