@@ -3,14 +3,30 @@
 	<h2>Pricing Plans</h2>
 	<div class="sandbox-pricing-cards-wrapper">
 
+		<div class="sandbox-pricing-card">
+			<p>Free 30 Day Trial</p>
+			<h3>Give it a shot</h3>
+			<ul class="sandbox-pricing-ul-separator">
+				<li>1 user</li>
+				<li>2 projects per user</li>
+				<li>Unlimited report previews</li>
+				<li>1 report download with no branding options</li>
+			</ul>
+
+			<ul>
+				<li>Add-ons</li>
+				<li>$9.99 per additional report</li>
+			</ul>
+		</div>
 		<div class="sandbox-pricing-card">hello</div>
-		<div class="sandbox-pricing-card">hello</div>
-		<div class="sandbox-pricing-card">hello</div>
-		<div class="sandbox-pricing-card">hello</div>
+		<div class="sandbox-pricing-card sandbox-pricing-card-greyed">hello</div>
+		<div class="sandbox-pricing-card sandbox-pricing-card-greyed">hello</div>
 		
 	</div>
 	<div class="sandbox-pricing-enterprise-wrapper">
-		enterprise
+		<h3>Enterprise Level</h3>
+		
+		<p>Do you need a customized plan? Please call us at (707) 234-8529 for a customized plan that fits your specific needs.</p>
 	</div>
 
 	

@@ -29,6 +29,8 @@ get_header();
 
 			<?php get_template_part( 'template-parts/sandbox-bond-pricing-section' ); ?> 
 
+			<h3>Follow Bond</h3>
+
 		</div>
 
 	</main><!-- #main -->

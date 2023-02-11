@@ -528,11 +528,53 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 }
 
 
+
+
 .sandbox-pricing-cards-wrapper {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+}
+
+.sandbox-pricing-card {
+	width: 25%;
+	margin: 40px 30px 40px 0;
+	padding: 15px 25px;
+	min-height: 500px;
+	background-color: #030E2B;
+}
+
+.sandbox-pricing-card ul {
+	margin: 30px 0 10px 0;
+	list-style-type: none;
+}
+
+.sandbox-pricing-card ul li {
+	margin-bottom: 15px;
+}
+
+.sandbox-pricing-ul-separator {
+	border-bottom: 1px solid #54B8C7;
+}
+
+.sandbox-pricing-card h3 {
+	font-size: 2.6rem; 
+}
+
+.sandbox-pricing-card p {
+	margin: 10px 0;
+	font-size: 1.8rem;	
+}
+
+.sandbox-pricing-card-greyed {
+	background-color: #282828;
+}
+
+.sandbox-pricing-enterprise-wrapper {
+	border-top: 1px solid #54B8C7;
+	border-bottom: 1px solid #54B8C7;
+	padding: 15px 0;
 }
 
 /* ================= about ==============  */
