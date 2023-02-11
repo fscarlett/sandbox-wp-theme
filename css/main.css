@@ -506,6 +506,14 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	background-color: #444;
 }
 
+.input-group-card h3 {
+	font-size: 2.6rem;
+}
+
+.input-group-card {
+	padding-right: 5%;
+}
+
 
 /* ================= about ==============  */
 
