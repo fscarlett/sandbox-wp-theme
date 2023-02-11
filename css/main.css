@@ -577,6 +577,23 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	padding: 15px 0;
 }
 
+.sandbox-pricing-register-button {
+	display: inline-block;
+	margin: 40px 0;
+	padding: 15px 30px;
+	border: 1px solid #54B8C7;
+	font-size: 22px;
+}
+
+.sandbox-pricing-register-button:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.sandbox-pricing-card p.sandbox-pricing-card-soon {
+	font-size: 24px;
+}
+
 @media screen and (max-width: 1200px) {
 	.sandbox-pricing-cards-wrapper {
 	}
@@ -596,7 +613,7 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	}
 
 	.sandbox-pricing-card {
-		margin: 0 auto;
+		margin: 30px auto;
 		width: 100%;
 		min-height: auto;
 	}

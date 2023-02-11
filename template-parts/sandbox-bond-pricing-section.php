@@ -17,6 +17,7 @@
 				<li>Add-ons</li>
 				<li>$9.99 per additional report</li>
 			</ul>
+			<a href="https://www.bondc6.com/account/register" class="sandbox-pricing-register-button">Register</a>
 		</div>
 		<div class="sandbox-pricing-card">
 			<p>$69.99/month or $59.99/month with annual discount</p>
@@ -33,6 +34,8 @@
 				<li>$9.99 per additional report</li>
 				<li>White label reports $800/year</li>
 			</ul>
+			<a href="https://www.bondc6.com/account/register" class="sandbox-pricing-register-button">Register</a>
+
 		</div>
 		<div class="sandbox-pricing-card sandbox-pricing-card-greyed">
 			<p>$99.99/month or $89.99/month with annual discount</p>
@@ -50,7 +53,9 @@
 				<li>$9.99 per additional user</li>
 				<li>White label reports $800/year</li>
 
-			</ul></div>
+			</ul>
+			<p class="sandbox-pricing-card-soon">Coming Soon</p>
+		</div>
 		<div class="sandbox-pricing-card sandbox-pricing-card-greyed">
 			<p>$129.99/month or $119.99/month with annual discount</p>
 			<h3>Large Teams</h3>
@@ -66,8 +71,9 @@
 				<li>$9.99 per additional report</li>
 				<li>$9.99 per additional user</li>
 				<li>White label reports $800/year</li>
-
 			</ul>
+			<p class="sandbox-pricing-card-soon">Coming Soon</p>
+
 		</div>
 		
 	</div>
