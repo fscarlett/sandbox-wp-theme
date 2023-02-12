@@ -33,13 +33,13 @@
 
 				 			<div class="sandbox-partner-card-img-wrapper">
 				 				<!-- <a href="<?php the_permalink(); ?>"> -->
-				 					<?php the_post_thumbnail(); ?>
+				 					<?php the_post_thumbnail('medium'); ?>
 						 		<!-- </a> -->
 						 	</div>
 
 				 			<div class="sandbox-partner-card-title-wrapper">
 				 			
-					 			<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					 			<!-- <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> -->
 
 					 		</div>
 

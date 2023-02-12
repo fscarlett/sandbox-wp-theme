@@ -455,11 +455,38 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	padding: 40px 25px;
 }
 
+/* ------------- partners section ------------  */
+
 .sandbox-partners-section {
 	margin: 0 auto;
 	max-width: 1320px;
 	padding: 40px 25px;
 }	
+
+.sandbox-partners-section h2 {
+	border-bottom: 2px solid #fff;
+}
+
+.sandbox-partner-query-row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+}
+
+.sandbox-partner-card {
+	width: 25%;
+	min-width: 200px;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
 
 .sandbox-home-bottom-image-section {
 	height: 80vh;
@@ -676,7 +703,7 @@ body .sandbox-values-section {
 	margin: 20px 20px 10px 0;
 	border: 1px solid #eee;
 	background-color: #222;
-	height: 250px;
+	height: 280px;
 	width: 31%;
 	background-repeat: no-repeat;
 	background-position: center;
