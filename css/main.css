@@ -396,7 +396,7 @@ body .sandbox-container {
   margin: 0 auto;
   min-height: 100vh;
   max-width: 1320px;
-  padding: 0 25px;
+  padding: 70px 25px;
 }
 
 body .sandbox-full-container {
@@ -534,9 +534,14 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 
 /* ================== bond product page ==========  */
 
+.page-template-page-bond .sandbox-container {
+	margin-top: 0;
+}
+
 .page-template-page-bond .entry-title {
-	color: 000;
+	color: #000;
 	font-size: 16px;
+	margin: 0;
 }
 
 
@@ -670,6 +675,11 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 }
 
 /* ================= about ==============  */
+
+.page-template-page-about .entry-title {
+	color: #000;
+	font-size: 40px;
+}
 
 body .sandbox-values-heading-section {
 	padding-bottom: 0;
