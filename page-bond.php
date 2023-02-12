@@ -30,6 +30,8 @@ get_header();
 			<?php get_template_part( 'template-parts/sandbox-bond-pricing-section' ); ?> 
 
 			<h3>Follow Bond</h3>
+			<a href="https://www.instagram.com/sandboxc6/" class="sandbox-product-social-link">instagram</a>
+			<a href="https://www.facebook.com/sandboxc6" class="sandbox-product-social-link">facebook</a>
 
 		</div>
 

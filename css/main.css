@@ -594,6 +594,12 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	font-size: 24px;
 }
 
+.sandbox-product-social-link {
+	display: inline-block;
+	margin: 10px 20px 10px 0;
+	font-size: 20px;
+}
+
 @media screen and (max-width: 1200px) {
 	.sandbox-pricing-cards-wrapper {
 	}
