@@ -142,6 +142,16 @@ blockquote {
 
 
 /* ================ header =================   */
+
+body header.site-header {
+	position: fixed;
+	width: 100%;
+	background-color: #060809;
+	z-index: 2000;
+
+}
+
+
 .header-container {
   margin: 0 auto;
   padding: 15px 30px;
@@ -523,6 +533,13 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 }
 
 /* ================== bond product page ==========  */
+
+.page-template-page-bond .entry-title {
+	color: 000;
+	font-size: 16px;
+}
+
+
 .sandbox-btn-cta a {
 	background-color: #000;
 	border-radius: 0;
