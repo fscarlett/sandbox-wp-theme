@@ -672,29 +672,36 @@ body .sandbox-values-section {
 
 .sandbox-team-card {
 	position: relative;
-	padding: 15px;
+	padding: 5px 10px;
 	margin: 20px 20px 10px 0;
 	border: 1px solid #eee;
 	background-color: #222;
 	height: 250px;
 	width: 31%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 
 }
 
 .sandbox-team-card-title-wrapper {
 	position: relative;
-	top: -15px;
-	padding-left: 30px;
+/*	top: -15px;*/
+/*	padding-left: 5px;*/
 }
 
 .sandbox-team-card-title-wrapper h3 {
 	font-size: 20px;
+	color: #111;
+
 }
 
 .sandbox-team-card-title-wrapper p {
 	margin: 0;
 	font-size: 16px;
 	font-style: italic;
+	color: #111;
+
 }
 
 

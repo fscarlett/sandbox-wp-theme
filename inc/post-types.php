@@ -111,7 +111,7 @@ function sandbox_post_types() {
     'hierarchical'        => false,
     'taxonomies'          => array( 'category' ),
     'menu_position'       => null,
-    'supports'            => array( 'title', 'editor', 'excerpt', 'page-attributes' ),
+    'supports'            => array( 'title', 'thumbnail', 'editor', 'excerpt', 'page-attributes' ),
     'menu_icon'           => 'dashicons-groups',
     );
 
