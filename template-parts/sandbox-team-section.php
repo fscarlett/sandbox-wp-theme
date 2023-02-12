@@ -28,7 +28,7 @@
 				 	<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
 
-				 		<div class="sandbox-team-card">
+				 		<div class="sandbox-team-card" style="background-image: url(<?php get_the_post_thumbnail_url('full'); ?>);">
 				 			
 				 				<?php the_content(); ?>
 				 			

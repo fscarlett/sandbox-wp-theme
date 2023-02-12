@@ -651,6 +651,8 @@ body .sandbox-values-section {
 	margin-bottom: 20px;
 }
 
+/* --------------- team template part --------------  */
+
 .sandbox-team-section {
 	min-height: 300px;
 	margin: 0 auto;
@@ -660,6 +662,23 @@ body .sandbox-values-section {
 
 .sandbox-team-section h2 {
 	border-bottom: 2px solid #fff;
+}
+
+.sandbox-team-query-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.sandbox-team-card {
+	position: relative;
+	padding: 15px;
+	margin: 20px 20px 10px 0;
+	border: 1px solid #eee;
+	background-color: #222;
+	height: 250px;
+	width: 31%;
+
 }
 
 .sandbox-team-card-title-wrapper {
