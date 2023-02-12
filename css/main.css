@@ -465,6 +465,17 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 	padding: 40px 25px;
 }
 
+/* ------------- latest posts section ------------  */
+
+.sandbox-latest-posts-section {
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 40px 25px;	
+
+}
+
+
+
 /* ------------- partners section ------------  */
 
 .sandbox-partners-section {
