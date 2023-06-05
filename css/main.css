@@ -663,6 +663,27 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   }
 }
 
+/* ================== bond highlists page =============== */
+
+body.page-id-12 {
+  background-color: #02818c;
+}
+
+body.page-id-12 h2 {
+  font-size: 48px;
+}
+
+body.page-id-12 h3 {
+  font-size: 32px;
+}
+
+.bond-highlights-right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 /* ================= about ==============  */
 
 .page-template-page-about .entry-title {
