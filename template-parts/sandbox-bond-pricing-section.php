@@ -17,7 +17,7 @@
 				<li>Add-ons</li>
 				<li>$9.99 per additional report</li>
 			</ul>
-			<a href="https://www.bondc6.com/account/register" class="sandbox-pricing-register-button">Register</a>
+			<a href="https://www.bondc6.com/account/register" class="sandbox-pricing-register-button">Start Using Bond</a>
 		</div>
 		<div class="sandbox-pricing-card">
 			<p>$69.99/month or $59.99/month with annual discount</p>
@@ -34,7 +34,7 @@
 				<li>$9.99 per additional report</li>
 				<li>White label reports $800/year</li>
 			</ul>
-			<a href="https://www.bondc6.com/account/register" class="sandbox-pricing-register-button">Register</a>
+			<a href="https://www.bondc6.com/account/register" class="sandbox-pricing-register-button">Start Using Bond</a>
 
 		</div>
 		<div class="sandbox-pricing-card sandbox-pricing-card-greyed">
