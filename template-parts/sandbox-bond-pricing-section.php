@@ -80,10 +80,7 @@
 	<div class="sandbox-pricing-enterprise-wrapper">
 		<h3>Enterprise Level</h3>
 		
-		<p>Do you need a customized plan? Please call us at (707) 234-8529 for a customized plan that fits your specific needs.</p>
+		<p>Do you need a customized plan? Please contact us at info@sandboxc6.com for a customized plan that fits your specific needs.</p>
 	</div>
-
-	
-
 
 </section>
