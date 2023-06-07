@@ -9,8 +9,9 @@
 get_header();
 ?>
 
+<div class="sandbox-blog-page-wrapper">
 	<main id="primary" class="site-main">
-		<div class="sandbox-container">
+		<div class="sandbox-blog-main-container">
 
     <h1><?php the_title(); ?></h1>
 
@@ -65,6 +66,8 @@ get_header();
 
 	</main><!-- #main -->
 
-<?php
-get_sidebar();
-get_footer();
+<?php get_sidebar(); ?>
+
+</div>
+
+<?php get_footer(); ?>
