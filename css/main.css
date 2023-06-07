@@ -765,6 +765,24 @@ body .sandbox-values-section {
   color: #111;
 }
 
+/* ================== BLOG PAGE ===================== */
+
+.sandbox-blog-post-card {
+  padding: 5px;
+  width: 100%;
+}
+
+.sandbox-blog-list-image-wrapper {
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.sandbox-blog-list-pub-date {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
 /* ================== BLOG SINGLE ==================  */
 
 .blog-wrapper {
