@@ -39,12 +39,10 @@ get_header();
 
 	</main><!-- #main -->
 
-	<aside id="sidebar" class="sandbox-blog-sidebar">
 		<?php
 		get_sidebar();
 
 		?>
-	</aside>
 </div>
 
 <?php

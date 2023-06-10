@@ -430,7 +430,7 @@ body .sandbox-inner-container {
 
 /* ------------- sidebar ------------ */
 
-.sandbox-sidebar {
+body.page-template-page-blog .sandbox-sidebar {
   padding: 190px 10px;
   width: 1200px;
 }
@@ -830,6 +830,7 @@ body .sandbox-values-section {
 .blog-wrapper {
   margin: 0 auto;
   min-height: 100vh;
+  width: 100vw;
   max-width: 1420px;
   /*	padding: 0 25px;*/
   display: flex;
@@ -847,9 +848,9 @@ body .sandbox-values-section {
   padding: 0 15px;
 }
 
-.sandbox-blog-sidebar {
-  width: 30%;
-  padding: 15px;
+body.single-post .sandbox-sidebar {
+  width: 27%;
+  padding: 150px 10px 60px 25px;
 }
 
 h1.entry-title {
