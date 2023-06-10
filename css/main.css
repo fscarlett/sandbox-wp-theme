@@ -440,6 +440,11 @@ body.page-template-page-blog .sandbox-sidebar {
     padding: 10px 10px;
     width: 100%;
   }
+
+  body.page-template-page-blog .sandbox-sidebar {
+    padding: 0 20px;
+    width: 100%;
+  }
 }
 
 /* ================== home =============== */
