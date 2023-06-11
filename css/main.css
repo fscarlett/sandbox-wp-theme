@@ -742,6 +742,27 @@ body .sandbox-values-section {
   margin-bottom: 20px;
 }
 
+/* ======================== faq ==================== */
+
+.sandbox-faqs-wrapper {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.sandbox-faq-card {
+  border-bottom: 1px solid #666;
+  margin-bottom: 40px;
+}
+
+.sandbox-faq-card h3 {
+  font-size: 24px;
+}
+
+.sandbox-faq-card p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
 /* --------------- team template part --------------  */
 
 .sandbox-team-section {
