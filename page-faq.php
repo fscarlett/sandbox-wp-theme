@@ -17,6 +17,7 @@ get_header();
       <div><?php the_content(); ?>  </div>
 
       <div class="sandbox-faqs-wrapper">
+        <h2>General Questions</h2>
         <?php
 
           if( have_rows('sandbox_faq_general') ):

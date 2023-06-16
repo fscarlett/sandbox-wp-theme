@@ -745,8 +745,13 @@ body .sandbox-values-section {
 /* ======================== faq ==================== */
 
 .sandbox-faqs-wrapper {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 50px;
+}
+
+.sandbox-faqs-wrapper h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 
 .sandbox-faq-card {
@@ -759,7 +764,7 @@ body .sandbox-values-section {
 }
 
 .sandbox-faq-card p {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
