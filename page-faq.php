@@ -158,7 +158,7 @@ get_header();
 
               <div class="sandbox-faq-card">
                 <h3><?php echo $sbox_question_inputs; ?> </h3>
-                <p><?php echo $sbox_answer_inputs; ?> </p>
+                <div class="sandbox-faq-card-wysiwyg"><?php echo $sbox_answer_inputs; ?> </div>
 
 
               </div>

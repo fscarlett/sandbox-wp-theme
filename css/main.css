@@ -772,9 +772,19 @@ body.page-template-page-faq .sandbox-main-container h1 {
   font-size: 24px;
 }
 
+.sandbox-faq-card h4 {
+  font-size: 21px;
+  margin-top: 30px;
+}
+
 .sandbox-faq-card p {
   margin-top: 10px;
   margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.sandbox-faq-card-wysiwyg {
+  padding-left: 20px;
 }
 
 /* --------------- team template part --------------  */
