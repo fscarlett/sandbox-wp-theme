@@ -112,6 +112,71 @@ get_header();
 
       </div> 
 
+      <div class="sandbox-faqs-wrapper">
+        <h2>Reports Page Questions</h2>
+        <?php
+
+          if( have_rows('sandbox_faq_reports') ):
+
+              while( have_rows('sandbox_faq_reports') ) : the_row();
+
+                  $sbox_question_reports = get_sub_field('faq_question_reports');
+                  $sbox_answer_reports = get_sub_field('faq_answer_reports');
+              ?>
+
+              <div class="sandbox-faq-card">
+                <h3><?php echo $sbox_question_reports; ?> </h3>
+                <p><?php echo $sbox_answer_reports; ?> </p>
+
+
+              </div>
+
+              <?php
+              endwhile;
+
+          else :
+            ?>
+              <h3>No FAQs were found.</h3>
+              <?php
+
+          endif;
+        ?>
+
+      </div> 
+
+      <div class="sandbox-faqs-wrapper">
+        <h2>Inputs Page Questions</h2>
+        <?php
+
+          if( have_rows('sandbox_faq_inputs') ):
+
+              while( have_rows('sandbox_faq_inputs') ) : the_row();
+
+                  $sbox_question_inputs = get_sub_field('faq_question_inputs');
+                  $sbox_answer_inputs = get_sub_field('faq_answer_inputs');
+              ?>
+
+              <div class="sandbox-faq-card">
+                <h3><?php echo $sbox_question_inputs; ?> </h3>
+                <p><?php echo $sbox_answer_inputs; ?> </p>
+
+
+              </div>
+
+              <?php
+              endwhile;
+
+          else :
+            ?>
+              <h3>No FAQs were found.</h3>
+              <?php
+
+          endif;
+        ?>
+
+      </div> 
+
+
     </div>
 
 	</main><!-- #main -->

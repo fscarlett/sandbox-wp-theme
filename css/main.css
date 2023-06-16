@@ -746,6 +746,7 @@ body .sandbox-values-section {
 
 body.page-template-page-faq .sandbox-main-container {
   margin-top: 60px;
+  max-width: 1120px;
 }
 
 body.page-template-page-faq .sandbox-main-container h1 {
