@@ -954,5 +954,6 @@ h1.entry-title {
 .gform_footer .gform_button:hover {
   color: inherit;
   text-decoration: underline;
-  background-color: #036;
+  background-color: #035;
+  cursor: pointer;
 }
