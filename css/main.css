@@ -940,6 +940,9 @@ h1.entry-title {
 
 /* ============== FORMS ================ */
 
+body.page-id-25 .gform_wrapper {
+  padding-right: 80px;
+}
 /* button */
 .gform_footer .gform_button {
   font-family: Roboto, serif;
