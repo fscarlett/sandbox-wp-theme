@@ -937,3 +937,22 @@ h1.entry-title {
     margin-bottom: 20px;
   }
 }
+
+/* ============== FORMS ================ */
+
+/* button */
+.gform_footer .gform_button {
+  font-family: Roboto, serif;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: 1px solid #00a6b2;
+  border-radius: 0;
+  color: #00a6b2;
+  background-color: transparent;
+}
+
+.gform_footer .gform_button:hover {
+  color: inherit;
+  text-decoration: underline;
+  background-color: #036;
+}
