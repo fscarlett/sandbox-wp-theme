@@ -744,12 +744,14 @@ body .sandbox-values-section {
 
 /* ======================== faq ==================== */
 
-body.page-template-page-faq .sandbox-main-container {
+body.page-template-page-faq .sandbox-main-container,
+body.page-template-page-glossary .sandbox-main-container {
   margin-top: 60px;
   max-width: 1120px;
 }
 
-body.page-template-page-faq .sandbox-main-container h1 {
+body.page-template-page-faq .sandbox-main-container h1,
+body.page-template-page-glossary .sandbox-main-container h1 {
   font-size: 48px;
 }
 
