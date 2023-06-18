@@ -19,12 +19,12 @@ get_header();
       <div class="sandbox-faqs-wrapper">
         <?php
 
-          if( have_rows('sandbox_glossary') ):
+          if( have_rows('sandbox_glossary_item') ):
 
-              while( have_rows('sandbox_glossary') ) : the_row();
+              while( have_rows('sandbox_glossary_item') ) : the_row();
 
-                  $sbox_question_general = get_sub_field('faq_question_general');
-                  $sbox_answer_general = get_sub_field('faq_answer_general');
+                  $sbox_question_general = get_sub_field('glossary_word');
+                  $sbox_answer_general = get_sub_field('glossary_definition');
               ?>
 
               <div class="sandbox-faq-card">
