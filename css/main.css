@@ -962,3 +962,15 @@ body.page-id-25 .gform_wrapper {
   background-color: #035;
   cursor: pointer;
 }
+
+.gform_wrapper.gravity-theme span.gfield_required {
+  color: #fff;
+}
+
+.contact-page-spaced-item {
+  margin-top: 80px;
+}
+
+h2.gform_title {
+  display: none;
+}
