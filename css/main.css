@@ -450,6 +450,11 @@ body.page-template-page-blog .sandbox-sidebar {
 
 /* ================== home =============== */
 
+.sbox-hero-slider-heading {
+  position: relative;
+  top: -100px;
+}
+
 .sandbox-home-heading-1 {
   font-size: 20px;
   color: #111;
