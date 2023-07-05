@@ -416,6 +416,19 @@ body .sandbox-inner-container {
   font-family: Poppins, sans-serif;
   font-size: 165px;
   text-align: center;
+  color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    #eab7e6 1%,
+    #54b8c7 12.38%,
+    #143752 50%,
+    #eab7e6 50%,
+    #eab7e6 52.38%,
+    #54b8c7 52.38%,
+    #143752 100%
+  );
+  -webkit-background-clip: text;
+  background-size: 4px 6px;
 }
 
 .sandbox-link-jumbo {
@@ -425,8 +438,42 @@ body .sandbox-inner-container {
 
 .sandbox-about-bond-cta {
   position: relative;
-  top: -50px;
+  top: -170px;
   text-align: center;
+}
+
+#primary .sandbox-about-bond-cta a {
+  color: #fff;
+}
+
+@media screen and (min-width: 1350px) {
+  .sandbox-cta-heading-jumbo {
+    font-size: 236px;
+  }
+  .sandbox-about-bond-cta {
+    top: -210px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sandbox-cta-heading-jumbo {
+    font-size: 68px;
+  }
+  .sandbox-link-jumbo {
+    font-size: 24px;
+  }
+  .sandbox-about-bond-cta {
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sandbox-cta-heading-jumbo {
+    font-size: 44px;
+  }
+  .sandbox-link-jumbo {
+    font-size: 24px;
+  }
 }
 
 /* ------------- sidebar ------------ */
