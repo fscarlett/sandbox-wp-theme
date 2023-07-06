@@ -1,6 +1,7 @@
 <section id="sandbox-latest-posts-section" class="sandbox-latest-posts-section">
 
 	<h2>Latest Blog Posts</h2>
+	<p>Stay up to date with current information</p>
 
 	<div class="sandbox-blog-preview-wrapper">
 
