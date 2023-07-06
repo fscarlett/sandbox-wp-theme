@@ -544,6 +544,13 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 10px;
+}
+
+.sandbox-blog-preview-wrapper a {
+  display: block;
+  width: 33%;
+  padding-right: 10px;
 }
 
 .sandbox-blog-preview-card {
@@ -551,9 +558,10 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #02818c;
-  height: 300px;
-  width: 22%;
-  min-width: 300px;
+  height: 350px;
+  /* width: 22%; */
+  /* min-width: 350px; */
+  margin-bottom: 15px;
 }
 
 .sandbox-blog-preview-card-title-wrapper {
@@ -571,6 +579,10 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
     height: 100vw;
     width: 100%;
     min-width: initial;
+  }
+  .sandbox-blog-preview-wrapper a {
+    width: 100%;
+    padding: 0;
   }
 }
 

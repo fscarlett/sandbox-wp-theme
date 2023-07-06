@@ -27,26 +27,25 @@
 
 				 	<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-				 		<?php $sandbox_team_img_url = get_the_post_thumbnail_url(); 
+				 		<?php $sandbox_team_img_url = get_the_post_thumbnail_url(); ?>
+
+						<a href="<?php echo the_permalink(); ?>  " >
+							<div class="sandbox-team-card" style="background-image: url(<?php echo $sandbox_team_img_url; ?>);">
+								
+									<?php the_content(); ?>
+								
 
 
-				 		?>
+								<div class="sandbox-team-card-title-wrapper">
+								
+									<h3><?php the_title(); ?></h3>
+									<?php the_excerpt(); ?>
 
+								</div>
 
-				 		<div class="sandbox-team-card" style="background-image: url(<?php echo $sandbox_team_img_url; ?>);">
-				 			
-				 				<?php the_content(); ?>
-				 			
+							</div>
 
-
-				 			<div class="sandbox-team-card-title-wrapper">
-				 			
-					 			<h3><?php the_title(); ?></h3>
-					 			<?php the_excerpt(); ?>
-
-					 		</div>
-
-				 		</div>
+						</a>
 
 				 	<?php endwhile; ?>
 

@@ -24,6 +24,8 @@
 
 			<?php $sandbox_blog_feat_img_url = get_the_post_thumbnail_url(); ?>
 
+			<a href="<?php echo the_permalink(); ?>  " >
+
 			<div class="sandbox-blog-preview-card" style="background-image: url(<?php echo $sandbox_blog_feat_img_url; ?>);">
 
 				<div class="sandbox-blog-preview-card-title-wrapper">
@@ -33,9 +35,8 @@
 
 				</div>
 
-
-
 			</div>
+			</a>
 
 			<?php endwhile; ?>
 	</div>
