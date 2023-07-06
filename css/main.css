@@ -538,6 +538,42 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   padding: 40px 25px;
 }
 
+.sandbox-blog-preview-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sandbox-blog-preview-card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #02818c;
+  height: 300px;
+  width: 22%;
+  min-width: 300px;
+}
+
+.sandbox-blog-preview-card-title-wrapper {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.sandbox-blog-preview-card-title-wrapper h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 500px) {
+  .sandbox-blog-preview-card {
+    height: 100vw;
+    width: 100%;
+    min-width: initial;
+  }
+}
+
 /* ------------- partners section ------------  */
 
 .sandbox-partners-section {
