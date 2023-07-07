@@ -748,8 +748,10 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 }
 
 .sandbox-pricing-cards-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   /*	justify-content: space-between;*/
   /*	align-items: flex-start;*/
 }
@@ -821,11 +823,12 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 
 @media screen and (max-width: 1200px) {
   .sandbox-pricing-cards-wrapper {
+    width: 100%;
   }
 
   .sandbox-pricing-card {
-    width: 50%;
-    margin: 40px 30px 40px 0;
+    width: 48%;
+    margin: 40px 10px 40px 0;
     padding: 15px 25px;
     min-height: 650px;
     min-height: auto;
