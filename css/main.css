@@ -85,6 +85,11 @@ i.fa {
   font-size: 27px;
 }
 
+#site-navigation button.menu-toggle {
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
 /* typography */
 
 h1,
