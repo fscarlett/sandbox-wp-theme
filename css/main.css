@@ -466,6 +466,14 @@ body .sandbox-inner-container {
 }
 
 @media screen and (max-width: 900px) {
+  body .sandbox-main-container {
+    padding: 40px 10px;
+  }
+
+  body .sandbox-inner-container {
+    padding: 0 10px;
+  }
+
   .sandbox-cta-heading-jumbo {
     font-size: 68px;
   }
@@ -532,6 +540,12 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 
 .sandbox-home-products-heading {
   border-bottom: 2px solid #eee;
+}
+
+@media screen and (max-width: 767px) {
+  h2.sandbox-home-top-h2 {
+    font-size: 3.2rem;
+  }
 }
 
 /* ------------- latest posts section ------------  */
