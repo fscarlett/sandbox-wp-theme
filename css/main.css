@@ -607,7 +607,23 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
+  .sandbox-latest-posts-section {
+    padding: 40px 10px;
+  }
+
+  .sandbox-blog-preview-card {
+    height: 50vw;
+    width: 100%;
+    min-width: initial;
+  }
+  #primary .sandbox-blog-preview-wrapper a {
+    width: 49%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .sandbox-latest-posts-section {
     padding: 40px 10px;
   }
