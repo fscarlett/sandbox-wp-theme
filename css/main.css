@@ -547,10 +547,16 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   padding: 10px;
 }
 
-.sandbox-blog-preview-wrapper a {
+#primary .sandbox-blog-preview-wrapper a {
   display: block;
   width: 33%;
   padding-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#primary .sandbox-blog-preview-wrapper a:hover {
+  opacity: 0.7;
 }
 
 .sandbox-blog-preview-card {
@@ -572,6 +578,7 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 .sandbox-blog-preview-card-title-wrapper h3 {
   font-size: 22px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 500px) {
