@@ -29,7 +29,6 @@
 
 				 		<?php $sandbox_team_img_url = get_the_post_thumbnail_url(); ?>
 
-						<a href="<?php echo the_permalink(); ?>  " >
 							<div class="sandbox-team-card" style="background-image: url(<?php echo $sandbox_team_img_url; ?>);">
 								
 									<?php the_content(); ?>
@@ -45,7 +44,6 @@
 
 							</div>
 
-						</a>
 
 				 	<?php endwhile; ?>
 
