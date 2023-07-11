@@ -739,6 +739,16 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   padding-top: 110px;
 }
 
+.sandbox-para-indent-decoration::before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
 /* -------- pricing template part ---------  */
 .sandbox-bond-pricing-section {
   padding: 140px 0;
