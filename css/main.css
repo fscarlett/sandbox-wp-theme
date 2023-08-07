@@ -259,7 +259,7 @@ body button.menu-toggle {
 body #site-navigation.main-navigation.toggled ul {
   display: block;
   position: absolute;
-  top: 120px;
+  top: 90px;
   left: 0;
   background: #fff;
   color: #111;
