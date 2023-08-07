@@ -544,7 +544,8 @@ body .sandbox-inner-container {
 
 /* ------------- sidebar ------------ */
 
-body.page-template-page-blog .sandbox-sidebar {
+body.page-template-page-blog .sandbox-sidebar,
+body.search-results .sandbox-sidebar {
   padding: 190px 10px;
   width: 1200px;
 }
@@ -555,7 +556,8 @@ body.page-template-page-blog .sandbox-sidebar {
     width: 100%;
   }
 
-  body.page-template-page-blog .sandbox-sidebar {
+  body.page-template-page-blog .sandbox-sidebar,
+  body.search-results .sandbox-sidebar {
     padding: 0 20px;
     width: 100%;
   }
@@ -1193,4 +1195,10 @@ body.page-id-25 .gform_wrapper {
 
 h2.gform_title {
   display: none;
+}
+
+/* ======  search results =======  */
+body.search-results h2.entry-title {
+  font-size: 40px;
+  margin-top: 100px;
 }
