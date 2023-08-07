@@ -285,6 +285,40 @@ body .main-navigation.toggled li {
   top: -15px;
 }
 
+/*  ===========   search icon toggle =========== */
+.site-header .search-form {
+  margin-left: 10px;
+}
+
+.site-header .search-field {
+  background-color: transparent;
+  background-image: url(../images/search-icon-white.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-size: 34px 34px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  margin: 11px 0 3px;
+  padding: 0 0 0 34px;
+  position: relative;
+  -webkit-transition: width 400ms ease, background 400ms ease;
+  transition: width 400ms ease, background 400ms ease;
+  width: 0;
+}
+
+.site-header .search-field:focus {
+  background-color: #fff;
+  border: 2px solid #c3c0ab;
+  cursor: text;
+  outline: 0;
+  width: 230px;
+}
+.search-form .search-submit {
+  display: none;
+}
+/* ========================================= */
+
 /* ================ footer =================   */
 
 .site-footer {
