@@ -61,9 +61,10 @@
 						);
 						?>
 					</nav><!-- #site-navigation -->
-					<div class="search-wrapper">
-						<?php get_search_form(); ?>
-					</div>
+				</div>
+				
+				<div class="search-wrapper">
+					<?php get_search_form(); ?>
 				</div>
 
 			</div>
