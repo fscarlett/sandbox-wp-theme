@@ -319,6 +319,12 @@ body .main-navigation.toggled li {
   display: none;
 }
 
+@media screen and (max-width: 1000px) {
+  .site-header .search-form {
+    display: none;
+  }
+}
+
 /* ========================================= */
 
 /* ================ footer =================   */
