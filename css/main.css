@@ -187,7 +187,7 @@ body header.site-header {
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .header-nav-wrapper {
     width: 100%;
     justify-content: space-between;
