@@ -117,7 +117,43 @@ function sandbox_post_types() {
 
   register_post_type( 'sandbox_team', $team_args );
 
+//register Citation post type
+$citation_labels = array(
+  'name'                => 'Citations',
+  'singular_name'       => 'Citation',
+  'menu_name'           => 'Citations',
+  'name_admin_bar'      => 'Citation',
+  'add_new'             => 'Add New',
+  'add_new_item'        => 'Add New Citation',
+  'new_item'            => 'New Citation',
+  'edit_item'           => 'Edit Citation',
+  'view_item'           => 'View Citation',
+  'all_items'           => 'All Citations',
+  'search_items'        => 'Search For Citations',
+  'parent_item_colon'   => 'Parent Citations:',
+  'not_found'           => 'No Citation found.',
+  'not_found_in_trash'  => 'No Citation found in trash.',
+  );
+$citation_args = array(
+  'labels'              => $citation_labels,
+  'description'         => 'citation',
+  'public'              => true,
+  'publicly_queryable'  => true,
+  'show_ui'             => true,
+  'query_var'           => true,
+  'rewrite'             => array( 'slug' => 'citation' ),
+  'capability_type'     => 'post',
+  'map_meta_cap'        => true,
+  'exclude_from_search' => false,
+  'has_archive'         => false,
+  'hierarchical'        => false,
+  'taxonomies'          => array( '' ),
+  'menu_position'       => null,
+  'supports'            => array( 'title', 'excerpt' ),
+  'menu_icon'           => 'dashicons-book',
+  );
 
+register_post_type( 'sandbox_citation', $citation_args );
 
 }
 
