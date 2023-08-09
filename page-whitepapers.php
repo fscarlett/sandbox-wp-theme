@@ -18,36 +18,50 @@ get_header();
 
       <h2>Citations</h2>
 
-      <div class="sandbox-citations-wrapper">
-        <?php
+      <div class="sandbox-citation-query-wrapper">
 
-          if( have_rows('sandbox_glossary_item') ):
+        <h3>References: Sequestration and Plant-Based Sequestration</h3>
 
-              while( have_rows('sandbox_glossary_item') ) : the_row();
+        <?php 
 
-                  $sbox_question_general = get_sub_field('glossary_word');
-                  $sbox_answer_general = get_sub_field('glossary_definition');
-              ?>
+          $sandbox_citation_args_1 = array(
+            'numberposts'	=> -1,
+            'post_type'		=> 'sandbox_citation',
+            'orderby'			=> 'date',
+            'order'				=> 'ASC',
+            'posts_per_page' => 200,
+            'meta_key'    =>  'citation_grouping',
+            'meta_value'    =>  'plant_based_seq',
+          );
 
-              <div class="sandbox-faq-card">
-                <h3><?php echo $sbox_question_general; ?> </h3>
-                <p><?php echo $sbox_answer_general; ?> </p>
+          $the_query = new WP_Query( $sandbox_citation_args_1 );
 
+        ?>
+
+        <?php if( $the_query->have_posts() ): ?>
+
+          <div class="sandbox-citation-cards-wrapper">
+
+
+            <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
+              <div class="sandbox-citation-card">
+                
+                  <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
+                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
-              <?php
-              endwhile;
 
-          else :
-            ?>
-              <h3>No items were found.</h3>
-              <?php
+          <?php endwhile; ?>
 
-          endif;
-        ?>
+        </div>
 
-      </div>       
+        <?php endif; ?>
+
+        <?php wp_reset_postdata(); ?>
+
+      </div>      
 
 
     </div>

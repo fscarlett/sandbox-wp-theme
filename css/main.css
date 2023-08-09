@@ -1044,6 +1044,23 @@ body.page-template-page-whitepapers .sandbox-main-container h3 {
   padding-bottom: 50px;
 }
 
+.sandbox-citation-query-wrapper {
+  padding-top: 40px;
+}
+
+.sandbox-citation-cards-wrapper {
+  padding: 20px 40px;
+}
+
+.sandbox-citation-label {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.sandbox-citation-link {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
 /* --------------- team template part --------------  */
 
 .sandbox-team-section {
