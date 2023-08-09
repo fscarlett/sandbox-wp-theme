@@ -36,10 +36,14 @@
 				</div>
 				<div class="sandbox-footer-col sandbox-footer-col-3">
 					
-					<p>Sandbox</p>
+					
 					<p></p>
-					<p></p>
-					<p class="sandbox-footer-spaced"></p>
+					<p class="sandbox-footer-spaced"> Follow us on Instagram</p>
+					<p class="sandbox-footer-spaced">
+						<a href="https://www.instagram.com/sandboxc6/">
+							<img src="/wp-content/uploads/2023/07/instagram-color-icon.png" alt="instagram icon" height="48" width="48">
+						</a>
+					</p>
 
 
 					
