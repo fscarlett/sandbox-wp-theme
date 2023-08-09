@@ -974,12 +974,14 @@ body .sandbox-values-section {
 /* ======================== faq ==================== */
 
 body.page-template-page-faq .sandbox-main-container,
+body.page-template-page-whitepapers .sandbox-main-container,
 body.page-template-page-glossary .sandbox-main-container {
   margin-top: 60px;
   max-width: 1120px;
 }
 
 body.page-template-page-faq .sandbox-main-container h1,
+body.page-template-page-whitepapers .sandbox-main-container h1,
 body.page-template-page-glossary .sandbox-main-container h1 {
   font-size: 48px;
 }
@@ -1016,6 +1018,30 @@ body.page-template-page-glossary .sandbox-main-container h1 {
 
 .sandbox-faq-card-wysiwyg {
   padding-left: 20px;
+}
+
+/* ======================== whitepapers ==================== */
+
+body.page-template-page-whitepapers .sandbox-main-container {
+  margin-top: 60px;
+  max-width: 1120px;
+}
+
+body.page-template-page-whitepapers .sandbox-main-container h1 {
+  font-size: 48px;
+}
+
+body.page-template-page-whitepapers .sandbox-main-container h2 {
+  font-size: 42px;
+}
+
+body.page-template-page-whitepapers .sandbox-main-container h3 {
+  font-size: 30px;
+}
+
+.sandbox-citations-wrapper {
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 /* --------------- team template part --------------  */
