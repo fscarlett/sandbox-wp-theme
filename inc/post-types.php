@@ -149,7 +149,7 @@ $citation_args = array(
   'hierarchical'        => false,
   'taxonomies'          => array( '' ),
   'menu_position'       => null,
-  'supports'            => array( 'title', 'excerpt' ),
+  'supports'            => array( 'title' ),
   'menu_icon'           => 'dashicons-book',
   );
 
