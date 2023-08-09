@@ -40,7 +40,7 @@
 					<p></p>
 					<p class="sandbox-footer-spaced"> Follow us on Instagram</p>
 					<p class="sandbox-footer-spaced">
-						<a href="https://www.instagram.com/sandboxc6/">
+						<a href="https://www.instagram.com/sandboxc6/" target="_blank" rel="nofollow">
 							<img src="/wp-content/uploads/2023/07/instagram-color-icon.png" alt="instagram icon" height="48" width="48">
 						</a>
 					</p>
