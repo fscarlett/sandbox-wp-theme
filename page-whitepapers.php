@@ -442,6 +442,53 @@ get_header();
 
 
 
+      <h2>White Papers</h2>
+
+      <div class="sandbox-citation-query-wrapper">
+        <?php 
+
+          $sandbox_whitepapers_args = array(
+            'numberposts'	=> -1,
+            'post_type'		=> 'sandbox_whitepaper',
+            'orderby'			=> 'date',
+            'order'				=> 'ASC',
+            'posts_per_page' => 200,
+            
+          );
+
+          $the_query = new WP_Query( $sandbox_whitepapers_args );
+
+        ?>
+
+        <?php if( $the_query->have_posts() ): ?>
+
+          <div class="sandbox-citation-cards-wrapper">
+
+
+            <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
+              <div class="sandbox-citation-card">
+                
+                  <p class="sandbox-citation-label"><?php the_title(); ?></p>
+                  <a href="<?php the_field('sandbox_whitelabel_file'); ?>" target="_blank" class="sandbox-citation-link"><?php the_field('sandbox_whitelabel_file'); ?></a>
+
+              </div>
+
+
+          <?php endwhile; ?>
+
+        </div>
+
+        <?php endif; ?>
+
+        <?php wp_reset_postdata(); ?>
+
+      </div>
+
+
+
+
+
     </div>
 
 	</main><!-- #main -->

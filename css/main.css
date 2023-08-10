@@ -1033,6 +1033,7 @@ body.page-template-page-whitepapers .sandbox-main-container h1 {
 
 body.page-template-page-whitepapers .sandbox-main-container h2 {
   font-size: 42px;
+  margin-top: 60px;
 }
 
 body.page-template-page-whitepapers .sandbox-main-container h3 {
@@ -1049,7 +1050,7 @@ body.page-template-page-whitepapers .sandbox-main-container h3 {
 }
 
 .sandbox-citation-cards-wrapper {
-  padding: 20px 40px;
+  padding: 10px 40px 30px;
 }
 
 .sandbox-citation-label {
