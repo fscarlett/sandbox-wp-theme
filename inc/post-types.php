@@ -155,6 +155,44 @@ $citation_args = array(
 
 register_post_type( 'sandbox_citation', $citation_args );
 
+//register Whitepaper post type
+$whitepaper_labels = array(
+  'name'                => 'White Papers',
+  'singular_name'       => 'White Paper',
+  'menu_name'           => 'White Papers',
+  'name_admin_bar'      => 'White Paper',
+  'add_new'             => 'Add New',
+  'add_new_item'        => 'Add New White Paper',
+  'new_item'            => 'New White Paper',
+  'edit_item'           => 'Edit White Paper',
+  'view_item'           => 'View White Paper',
+  'all_items'           => 'All White Papers',
+  'search_items'        => 'Search For White Papers',
+  'parent_item_colon'   => 'Parent White Papers:',
+  'not_found'           => 'No White Paper found.',
+  'not_found_in_trash'  => 'No White Paper found in trash.',
+  );
+$whitepaper_args = array(
+  'labels'              => $whitepaper_labels,
+  'description'         => 'whitepaper',
+  'public'              => true,
+  'publicly_queryable'  => true,
+  'show_ui'             => true,
+  'query_var'           => true,
+  'rewrite'             => array( 'slug' => 'whitepaper' ),
+  'capability_type'     => 'post',
+  'map_meta_cap'        => true,
+  'exclude_from_search' => false,
+  'has_archive'         => false,
+  'hierarchical'        => false,
+  'taxonomies'          => array( '' ),
+  'menu_position'       => null,
+  'supports'            => array( 'title' ),
+  'menu_icon'           => 'dashicons-text-page',
+  );
+
+register_post_type( 'sandbox_whitepaper', $whitepaper_args );
+
 }
 
 add_action( 'init', 'sandbox_post_types', 10 );
