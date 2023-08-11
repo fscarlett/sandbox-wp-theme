@@ -486,6 +486,10 @@ body .sandbox-inner-container {
   padding: 0 25px;
 }
 
+.sandbox-jumbo-cta-wrapper {
+  height: 280px;
+}
+
 .sandbox-cta-heading-jumbo {
   font-family: Poppins, sans-serif;
   font-size: 165px;
