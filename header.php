@@ -64,7 +64,7 @@
 				</div>
 				
 				<div class="search-wrapper">
-					<?php get_search_form(); ?>
+					<span>Search</span> <?php get_search_form('search'); ?>
 				</div>
 
 			</div>

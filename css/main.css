@@ -293,7 +293,7 @@ body .main-navigation.toggled li {
 }
 
 /*  ===========   search icon toggle =========== */
-.site-header .search-form {
+.site-header .search-wrapper {
   margin-left: 10px;
 }
 
@@ -306,7 +306,7 @@ body .main-navigation.toggled li {
   border: none;
   cursor: pointer;
   height: 30px;
-  margin: 11px 20px 3px;
+  margin: 11px 15px 3px;
   padding: 0 0 0 34px;
   position: relative;
   -webkit-transition: width 400ms ease, background 400ms ease;
@@ -326,8 +326,18 @@ body .main-navigation.toggled li {
   display: none;
 }
 
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
   .site-header .search-form {
+    display: none;
+  }
+  .search-wrapper {
     display: none;
   }
 }
