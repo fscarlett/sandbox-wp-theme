@@ -8,11 +8,10 @@
 		<?php
 
 				$sandbox_blog_args = array(
-								'numberposts'			=> 4,
 								'post_type'   		=> 'post',
 								'orderby'					=> 'date',
 				        'order'           => 'DESC',
-				        // 'posts_per_page'  => '4'
+				        'posts_per_page'  => '4'
 				        );
 
 				$the_query = new WP_Query( $sandbox_blog_args );
