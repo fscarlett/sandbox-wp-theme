@@ -17,7 +17,7 @@
 		<div class="entry-meta">
 			<?php
 			sandbox_posted_on();
-			sandbox_posted_by();
+			//sandbox_posted_by();
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
