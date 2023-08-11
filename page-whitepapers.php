@@ -46,7 +46,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -88,7 +88,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"> <?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -130,7 +130,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -172,7 +172,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -214,7 +214,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -256,7 +256,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -298,7 +298,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -340,7 +340,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
@@ -382,7 +382,7 @@ get_header();
               <div class="sandbox-citation-card">
                 
                   <p class="sandbox-citation-label"><?php the_field('citation_label'); ?></p>
-                  <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
+                  Retrieved from: <a href="<?php the_field('citation_url'); ?>"  class="sandbox-citation-link"><?php the_field('citation_url'); ?></a>
 
               </div>
 
