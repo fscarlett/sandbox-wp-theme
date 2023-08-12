@@ -1105,7 +1105,7 @@ body.page-template-page-whitepapers .sandbox-main-container h3 {
 
 .sandbox-team-card {
   position: relative;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
   margin: 20px 20px 10px 0;
   border: 1px solid #eee;
   background-color: #222;
@@ -1117,14 +1117,23 @@ body.page-template-page-whitepapers .sandbox-main-container h3 {
 }
 
 .sandbox-team-card-title-wrapper {
-  position: relative;
-  /*	top: -15px;*/
+  background-image: linear-gradient(
+    to right,
+    rgba(256, 256, 256, 0.8),
+    rgba(60, 60, 60, 0.8)
+  );
+  width: 100%;
+  padding: 0 0 4px 6px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   /*	padding-left: 5px;*/
 }
 
 .sandbox-team-card-title-wrapper h3 {
   font-size: 20px;
   color: #111;
+  line-height: 1.2;
 }
 
 .sandbox-team-card-title-wrapper p {
@@ -1132,6 +1141,7 @@ body.page-template-page-whitepapers .sandbox-main-container h3 {
   font-size: 16px;
   font-style: italic;
   color: #111;
+  line-height: 1;
 }
 
 /* ================== BLOG PAGE ===================== */

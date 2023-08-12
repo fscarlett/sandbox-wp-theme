@@ -31,7 +31,7 @@
 
 							<div class="sandbox-team-card" style="background-image: url(<?php echo $sandbox_team_img_url; ?>);">
 								
-									<?php the_content(); ?>
+									<?php //the_content(); ?> 
 								
 
 
