@@ -16,7 +16,7 @@
 			<div class="footer-cols-wrapper">
 				<div class="sandbox-footer-col sandbox-footer-col-1">
 					<div>
-						<img src="http://sandbox.local/wp-content/uploads/2023/02/sandbox-logo-mark-color-tm-large.png" width="200px" height="150px">
+						<img src="/wp-content/uploads/2023/02/sandbox-logo-mark-color-tm-large.png" width="200px" height="150px">
 					</div>
 				</div>
 				<div class="sandbox-footer-col sandbox-footer-col-2">
