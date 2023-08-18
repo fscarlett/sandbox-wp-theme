@@ -907,6 +907,11 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   font-size: 20px;
 }
 
+.sandbox-product-social-link:last-child {
+  position: relative;
+  top: 4px;
+}
+
 @media screen and (max-width: 1200px) {
   .sandbox-pricing-cards-wrapper {
     width: 100%;
