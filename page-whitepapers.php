@@ -16,7 +16,7 @@ get_header();
 
       <div><?php the_content(); ?>  </div>
 
-      <h2>Citations</h2>
+      <!-- <h2>Citations</h2> -->
 
       <div class="sandbox-citation-query-wrapper">
         <h3>References: Sequestration and Plant-Based Sequestration</h3>
