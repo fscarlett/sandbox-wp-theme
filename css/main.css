@@ -1072,13 +1072,19 @@ body.page-template-page-whitepapers .sandbox-main-container h3 {
   font-size: 30px;
 }
 
+body.page-template-page-whitepapers ul li a {
+  font-size: 20px;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
 .sandbox-citations-wrapper {
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
 .sandbox-citation-query-wrapper {
-  padding-top: 40px;
+  padding-top: 100px;
 }
 
 .sandbox-citation-cards-wrapper {

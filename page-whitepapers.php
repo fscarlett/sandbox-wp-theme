@@ -16,9 +16,27 @@ get_header();
 
       <div><?php the_content(); ?>  </div>
 
-      <!-- <h2>Citations</h2> -->
-
       <div class="sandbox-citation-query-wrapper">
+
+        <h3>Table of Contents</h3>
+
+        <ul>
+          <li><a href="#plant-based">Plant-Based Sequestration</a></li>
+          <li><a href="#soil-organic-carbon">Soil Organic Carbon</a></li>
+          <li><a href="#tree-sequestration">Tree Sequestration</a></li>
+          <li><a href="#emerging-technologies">Emerging Technologies</a></li>
+          <li><a href="#footprints-general">Emissions Carbon Footprints - General</a></li>
+          <li><a href="#equipment">Equipment Emissions</a></li>
+          <li><a href="#hardscape">Hardscape Emissions</a></li>
+          <li><a href="#pvc">Polyvinyl Chloride (PVC) Emissions</a></li>
+          <li><a href="#footprints-tree">Tree and Tree Care Carbon Footprints</a></li>
+          <li><a href="#professionals">Professionals Consulted</a></li>
+          <li><a href="#white-papers">White Papers</a></li>
+        </ul>
+
+      </div>
+
+      <div class="sandbox-citation-query-wrapper" id="plant-based">
         <h3>References: Sequestration and Plant-Based Sequestration</h3>
         <?php 
 
@@ -60,7 +78,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div>      
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="soil-organic-carbon">
         <h3>Soil Organic Carbon (S.O.C.)</h3>
         <?php 
 
@@ -102,7 +120,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="tree-sequestration">
         <h3>Tree Sequestration</h3>
         <?php 
 
@@ -144,7 +162,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="emerging-technologies">
         <h3>Emerging Technologies</h3>
         <?php 
 
@@ -186,8 +204,8 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
-        <h3>Emissions Carbon Footprints- General</h3>
+      <div class="sandbox-citation-query-wrapper" id="footprints-general">
+        <h3>Emissions Carbon Footprints - General</h3>
         <?php 
 
           $sandbox_citation_args_5 = array(
@@ -228,7 +246,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="equipment">
         <h3>Equipment Emissions</h3>
         <?php 
 
@@ -270,7 +288,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="hardscape">
         <h3>Hardscape Emissions</h3>
         <?php 
 
@@ -312,7 +330,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="pvc">
         <h3>Polyvinyl Chloride (PVC) Emissions</h3>
         <?php 
 
@@ -354,7 +372,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="footprints-tree">
         <h3>Tree and Tree Care Carbon Footprints</h3>
         <?php 
 
@@ -396,7 +414,7 @@ get_header();
         <?php wp_reset_postdata(); ?>
       </div> 
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="professionals">
         <h3>Professionals Consulted</h3>
         <?php 
 
@@ -444,7 +462,7 @@ get_header();
 
       <h2>White Papers</h2>
 
-      <div class="sandbox-citation-query-wrapper">
+      <div class="sandbox-citation-query-wrapper" id="white-papers">
         <?php 
 
           $sandbox_whitepapers_args = array(
