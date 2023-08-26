@@ -15,13 +15,18 @@ get_header();
 
         <h1><?php the_title(); ?></h1> 
 
-        <div class="blog-toc-modal" id="blog-toc-modal">
-          <div class="toc-modal-content-wrapper">
+        <div class="sandbox-toc-button" id="sandbox-toc-button">
+          Table Of Contents
+
+        </div>
+
+        <div class="sandbox-blog-toc-modal" id="sandbox-blog-toc-modal">
+          <div class="sandbox-toc-modal-content-wrapper">
             <h2>Blog Table of Contents</h2>
           </div>
         </div>
         <style>
-          .blog-toc-modal {
+          .sandbox-blog-toc-modal {
             display: none;
             position: absolute;
             top: 180px;
@@ -29,10 +34,10 @@ get_header();
             z-index: 1000;
             height: 100vh;
             width: 100vw;
-            background-color: rgba(0,0,0,0.9);
+            background-color: rgba(0,0,0,0.8);
             
           }
-          .toc-modal-content-wrapper {
+          .sandbox-toc-modal-content-wrapper {
             background-color: #222;
             width: 90%;
             max-width: 1000px;
@@ -42,8 +47,17 @@ get_header();
             margin: 30px auto;
 
           }
-          .toc-modal-content-wrapper h2{
+          .sandbox-toc-modal-content-wrapper h2{
             font-size: 26px;
+          }
+
+          .sandbox-toc-button {
+            display: inline-block;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 1px solid #fff;
+            font-size: 20px;
+            /* width: 200px; */
           }
         </style>
 
