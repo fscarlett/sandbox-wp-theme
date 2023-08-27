@@ -22,7 +22,10 @@ get_header();
 
         <div class="sandbox-blog-toc-modal" id="sandbox-blog-toc-modal">
           <div class="sandbox-toc-modal-content-wrapper">
-            <h2>Blog Table of Contents</h2>
+            <div class="sandbox-toc-modal-header">
+              <h2>Blog Table of Contents</h2>
+              <div class="sandbox-close-modal" id="sandbox-blog-closemodal-x">X</div>
+            </div>
           </div>
         </div>
         <style>
@@ -47,6 +50,20 @@ get_header();
             margin: 30px auto;
 
           }
+          .sandbox-toc-modal-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 5px;
+          }
+
+          .sandbox-close-modal {
+            padding: 10px;
+            border: 1px #ccc solid;
+            font-size: 24px;
+            cursor: pointer;
+          }
           .sandbox-toc-modal-content-wrapper h2{
             font-size: 26px;
           }
@@ -59,7 +76,28 @@ get_header();
             font-size: 20px;
             /* width: 200px; */
           }
+
+          .sandbox-show-toc {
+            display: block;
+          }
         </style>
+        <script>
+          let tocButton = document.getElementById('sandbox-toc-button');
+          let tocModal = document.getElementById('sandbox-blog-toc-modal');
+          let tocCloseModal = document.getElementById('sandbox-blog-closemodal-x');
+          tocButton.addEventListener('click', showTocModal);
+          tocModal.addEventListener('click', closeTocModal);
+          tocCloseModal.addEventListener('click', closeTocModal);
+
+          function showTocModal() {
+            tocModal.classList.toggle('sandbox-show-toc');
+          }
+
+          function closeTocModal() {
+            tocModal.classList.remove('sandbox-show-toc');
+          }
+
+        </script>
 
         <div><?php the_content(); ?>  </div>
 
