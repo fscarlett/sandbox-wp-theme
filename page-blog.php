@@ -32,7 +32,7 @@ get_header();
           .sandbox-blog-toc-modal {
             display: none;
             position: absolute;
-            top: 180px;
+            top: 60px;
             left: 0;
             z-index: 1000;
             height: 100vh;
@@ -41,12 +41,14 @@ get_header();
             
           }
           .sandbox-toc-modal-content-wrapper {
+            position: relative;
+            z-index: 3000;
             background-color: #222;
             width: 90%;
             max-width: 1000px;
             border: 1px solid #ddd;
             border-radius: 6px;
-            padding: 15px;
+            padding: 30px 15px;
             margin: 30px auto;
 
           }
@@ -60,8 +62,8 @@ get_header();
 
           .sandbox-close-modal {
             padding: 10px;
-            border: 1px #ccc solid;
-            font-size: 24px;
+            border: 1px #888 solid;
+            font-size: 18px;
             cursor: pointer;
           }
           .sandbox-toc-modal-content-wrapper h2{
