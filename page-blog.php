@@ -26,8 +26,38 @@ get_header();
               <h2>Blog Table of Contents</h2>
               <div class="sandbox-close-modal" id="sandbox-blog-closemodal-x">X</div>
             </div>
+         <?php  
+          $sbox_blog_args = array(
+            'post_type'   		=> 'post',
+                'order'           => 'DESC',
+                'posts_per_page'  => '-1'
+                );
+
+            $sbox_blog = new WP_Query( $sbox_blog_args );
+         if ( $sbox_blog->have_posts() ) {
+
+            while ( $sbox_blog->have_posts() ) :
+
+              $sbox_blog->the_post(); ?>
+
+            <div class="sandbox-toc-post-card">
+
+              <h3><a href="<?php the_permalink(); ?>">  <?php the_title(); ?></a> </h3>
+
+            </div>
+
+            <?php endwhile; ?>
+
+
+            <?php } ?>
+
+          <?php  wp_reset_postdata(); ?>
           </div>
         </div>
+
+       
+
+
         <style>
           .sandbox-blog-toc-modal {
             display: none;
@@ -81,6 +111,24 @@ get_header();
 
           .sandbox-show-toc {
             display: block;
+          }
+
+          .sandbox-toc-post-card {
+            padding: 5px 5px 5px 0;
+            width: 100%;
+          }
+
+          .sandbox-toc-modal-content-wrapper .sandbox-toc-post-card h3 {
+            margin: 0;
+            line-height: 0.8;
+            font-weight: normal;
+          }
+
+          .sandbox-toc-modal-content-wrapper .sandbox-toc-post-card h3 a {
+            display: inline-block;
+            font-size: 18px;
+            padding: 5px 10px ;
+            color: #eee !important;
           }
         </style>
         <script>
@@ -150,7 +198,7 @@ get_header();
 
 
 			
-
+        <?php wp_reset_postdata(); ?>
 
 		</div>
 
