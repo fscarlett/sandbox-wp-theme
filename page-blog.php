@@ -16,7 +16,7 @@ get_header();
         <h1><?php the_title(); ?></h1> 
 
         <div class="sandbox-toc-button" id="sandbox-toc-button">
-          Table Of Contents
+          Table Of Contents <span> &#x2304;</span>
 
         </div>
 
@@ -107,6 +107,12 @@ get_header();
             border: 1px solid #fff;
             font-size: 20px;
             /* width: 200px; */
+          }
+
+          .sandbox-toc-button span {
+            font-size: 24px;
+            position: relative;
+            top: -4px;
           }
 
           .sandbox-show-toc {
