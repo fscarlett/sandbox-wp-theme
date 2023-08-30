@@ -1029,12 +1029,19 @@ body.page-template-page-glossary .sandbox-main-container h1 {
 }
 
 .sandbox-faq-card {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #ddd;
   margin-bottom: 40px;
 }
 
 .sandbox-faq-card h3 {
-  font-size: 24px;
+  font-size: 21px;
+  display: inline-block;
+  font-weight: normal;
+  padding: 0 10px 5px 10px;
+}
+
+.sandbox-faq-card h3:hover {
+  color: #00a6b2;
 }
 
 .sandbox-faq-card h4 {

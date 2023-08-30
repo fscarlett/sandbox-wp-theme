@@ -28,9 +28,10 @@ get_header();
               ?>
 
               <div class="sandbox-faq-card">
-                <h3><?php echo $sbox_question_general; ?> </h3>
-                <p><?php echo $sbox_answer_general; ?> </p>
-
+                <details>
+                 <summary><h3><?php echo $sbox_question_general; ?> </h3></summary>
+                  <p><?php echo $sbox_answer_general; ?> </p>
+                </details>
 
               </div>
 
