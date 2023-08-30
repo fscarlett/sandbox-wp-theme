@@ -1033,13 +1033,14 @@ body.page-template-page-glossary .sandbox-main-container h1 {
   margin-bottom: 40px;
 }
 
-.sandbox-faq-card details {
-  /* display: inline-block; */
+.sandbox-faq-card details p {
+  padding-left: 77px;
 }
 
 .sandbox-faq-card span {
   padding-right: 10px;
   padding-left: 10px;
+  font-size: 16px;
 }
 
 .sandbox-faq-card h3 {
