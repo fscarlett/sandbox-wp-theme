@@ -1128,6 +1128,10 @@ body.page-template-page-whitepapers ul li a {
   border-bottom: 2px solid #fff;
 }
 
+.sandbox-team-query-wrapper {
+  padding-top: 30px;
+}
+
 .sandbox-team-query-row {
   display: flex;
   flex-direction: row;
@@ -1136,8 +1140,7 @@ body.page-template-page-whitepapers ul li a {
 
 .sandbox-team-card {
   position: relative;
-  /* padding: 5px 10px; */
-  margin: 20px 20px 10px 0;
+  margin: 10px 20px 10px 0;
   border: 1px solid #eee;
   background-color: #222;
   height: 280px;
@@ -1173,6 +1176,25 @@ body.page-template-page-whitepapers ul li a {
   font-style: italic;
   color: #111;
   line-height: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .sandbox-team-card {
+    margin: 10px 20px 10px 0;
+    height: 350px;
+    width: 48%;
+  }
+  .sandbox-team-card:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sandbox-team-card {
+    margin: 20px 0 10px 0;
+    height: 400px;
+    width: 100%;
+  }
 }
 
 /* ================== BLOG PAGE ===================== */
