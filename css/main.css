@@ -1271,6 +1271,11 @@ h1.entry-title {
     padding: 10px;
   }
 
+  body.single-post .sandbox-sidebar {
+    width: 100%;
+    padding: 10px 10px 40px 10px;
+  }
+
   h1.entry-title {
     font-size: 35px;
     line-height: 1;
