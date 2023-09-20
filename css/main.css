@@ -925,7 +925,6 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
     margin: 40px 10px 40px 0;
     padding: 15px 25px;
     min-height: 650px;
-    min-height: auto;
   }
 }
 
@@ -937,7 +936,6 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   .sandbox-pricing-card {
     margin: 30px auto;
     width: 100%;
-    min-height: auto;
   }
 }
 
