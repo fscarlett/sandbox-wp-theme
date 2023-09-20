@@ -266,6 +266,7 @@ body button.menu-toggle {
 body #site-navigation.main-navigation.toggled ul {
   display: block;
   position: absolute;
+  z-index: 1000;
   top: 90px;
   left: 0;
   background: #fff;
