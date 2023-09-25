@@ -423,6 +423,21 @@ p.sandbox-footer-spaced {
   font-size: 1.3rem;
 }
 
+.sandbox-socials-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px 0 0 0;
+}
+
+.sandbox-footer-social-link {
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 1000px) {
   .sandbox-footer-col {
     padding: 50px 30px 50px;
@@ -433,6 +448,10 @@ p.sandbox-footer-spaced {
 
   .sandbox-footer-col-2 {
     width: 60%;
+  }
+
+  .sandbox-footer-col-3 {
+    width: 50%;
   }
 }
 
@@ -447,6 +466,10 @@ p.sandbox-footer-spaced {
   }
 
   .sandbox-footer-col-2 {
+    width: 100%;
+  }
+
+  .sandbox-footer-col-3 {
     width: 100%;
   }
 }
