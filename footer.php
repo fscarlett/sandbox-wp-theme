@@ -41,7 +41,7 @@
 							<img src="/wp-content/uploads/2023/07/instagram-color-icon.png" alt="instagram icon" height="48" width="48">
 						</a>
 					</p> -->
-					<h3>Follow Bond</h3>
+					<h3>Follow Sandbox</h3>
 
 					<div class="sandbox-socials-wrapper">
 						<a href="https://www.instagram.com/sandboxc6/" class="sandbox-footer-social-link" target="_blank" rel="nofollow"><img src="/wp-content/uploads/2023/07/instagram-color-icon.svg" height="40" width="40"></a>

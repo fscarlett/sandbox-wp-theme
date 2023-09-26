@@ -423,6 +423,7 @@ p.sandbox-footer-spaced {
 }
 
 .sandbox-socials-wrapper {
+  max-width: 230px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
