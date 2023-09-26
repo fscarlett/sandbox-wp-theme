@@ -263,7 +263,7 @@ body button.menu-toggle {
   border: none;
 }
 
-body #site-navigation.main-navigation.toggled ul {
+body #site-navigation.main-navigation.toggled ul#primary-menu {
   display: block;
   position: absolute;
   z-index: 1000;
@@ -273,24 +273,21 @@ body #site-navigation.main-navigation.toggled ul {
   color: #111;
   padding: 10px;
   width: 100vw;
+  height: 90vh;
 }
 
 body #site-navigation.main-navigation.toggled ul.sub-menu {
   display: block;
-  position: initial;
+  position: relative;
   top: initial;
   left: initial;
   background: #fff;
   box-shadow: none;
+  float: none;
 }
 
 body #site-navigation.main-navigation.toggled ul#primary-menu > li > a {
   padding: 10px;
-}
-
-body .main-navigation.toggled li {
-  position: relative;
-  top: -15px;
 }
 
 /*  ===========   search icon toggle =========== */
