@@ -88,6 +88,8 @@ i.fa {
 #site-navigation button.menu-toggle {
   text-transform: uppercase;
   border-radius: 3px;
+  position: relative;
+  z-index: 7000;
 }
 
 /* typography */
@@ -1131,9 +1133,13 @@ body.page-template-page-whitepapers ul li a {
   margin-top: 20px;
   margin-bottom: 0;
 }
-.sandbox-citation-link {
+body a.sandbox-citation-link {
   display: inline-block;
+  max-width: 86vw;
   font-size: 1.8rem;
+  overflow: hidden;
+  white-space: wrap;
+  word-wrap: break-word;
 }
 
 /* --------------- team template part --------------  */
