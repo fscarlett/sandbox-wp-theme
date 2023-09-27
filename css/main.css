@@ -1390,6 +1390,24 @@ h2.gform_title {
   display: none;
 }
 
+/* ---------- constant contact form ------- */
+.sandbox-newsletter-cc-wrapper {
+  max-width: 700px;
+  padding-bottom: 60px;
+}
+
+input.ctct-email {
+  font-size: 17px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+input.ctct-submit {
+  font-size: 20px;
+  padding-bottom: 15px;
+  background-color: #00a6b2;
+}
+
 /* ======  search results =======  */
 body.search-results h2.entry-title,
 body.archive h2.entry-title {
