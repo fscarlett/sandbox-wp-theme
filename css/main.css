@@ -1432,6 +1432,10 @@ input.ctct-submit:hover {
   border-color: #00a6b2;
 }
 
+.ctct-disclosure {
+  display: none;
+}
+
 /* ======  search results =======  */
 body.search-results h2.entry-title,
 body.archive h2.entry-title {
