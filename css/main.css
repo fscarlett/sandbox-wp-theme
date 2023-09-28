@@ -1436,6 +1436,13 @@ input.ctct-submit:hover {
   display: none;
 }
 
+body .ctct-form-wrapper .ctct-message.ctct-success {
+  background-color: rgba(46, 204, 64, 0.02);
+  border-color: #00a6b2;
+  color: #00a6b2;
+  text-align: center;
+}
+
 /* ======  search results =======  */
 body.search-results h2.entry-title,
 body.archive h2.entry-title {
