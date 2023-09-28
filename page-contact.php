@@ -24,7 +24,6 @@ get_header();
 			endwhile; // End of the loop.
 			?>
 
-<?php get_template_part( 'template-parts/sandbox-newsletter-signup-section' ); ?> 
 
 
 		<h3>Follow Bond</h3>
