@@ -1418,7 +1418,18 @@ input.ctct-email {
 input.ctct-submit {
   font-size: 20px;
   padding-bottom: 15px;
+  background-color: transparent;
+  border: 1px solid #00a6b2;
+  color: #00a6b2;
+  border-radius: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input.ctct-submit:hover {
   background-color: #00a6b2;
+  color: #000;
+  border-color: #00a6b2;
 }
 
 /* ======  search results =======  */
