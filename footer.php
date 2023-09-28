@@ -11,6 +11,9 @@
 
 ?>
 
+<?php get_template_part( 'template-parts/sandbox-newsletter-signup-section' ); ?> 
+
+
 	<footer id="colophon" class="site-footer">
 		<div class="sandbox-footer-container">
 			<div class="footer-cols-wrapper">

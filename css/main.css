@@ -1391,6 +1391,19 @@ h2.gform_title {
 }
 
 /* ---------- constant contact form ------- */
+
+body .sandbox-newsletter-container {
+  margin: 0 auto;
+  min-height: 100px;
+  max-width: 1320px;
+  padding: 40px 25px;
+  border-top: 1px solid #eee;
+}
+
+body .sandbox-newsletter-container h2 {
+  /* font-size: 48px; */
+}
+
 .sandbox-newsletter-cc-wrapper {
   max-width: 700px;
   padding-bottom: 60px;
