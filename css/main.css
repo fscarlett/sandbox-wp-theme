@@ -862,6 +862,29 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   /*	align-items: flex-start;*/
 }
 
+.sandbox-pricing-banner {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #00a6b2;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  margin-bottom: 30px;
+}
+
+.sandbox-pricing-banner-heading {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.sandbox-pricing-banner p {
+  font-size: 2.4rem;
+  margin: 10px 0;
+}
+
 .sandbox-pricing-card {
   position: relative;
   width: 23%;
