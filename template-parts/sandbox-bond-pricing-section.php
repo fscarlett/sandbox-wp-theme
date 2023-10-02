@@ -20,7 +20,7 @@
 			<a href="https://www.bondc6.com/account/register" class="sandbox-pricing-register-button">Start Using Bond</a>
 		</div>
 		<div class="sandbox-pricing-card">
-			<p>$69.99/month or $59.99/month with annual discount</p>
+			<p>$9.99/month or<br>$8.33/month with<br>annual discount</p>
 			<h3>Solo Designer</h3>
 			<ul class="sandbox-pricing-ul-separator">
 				<li>1 user</li>
