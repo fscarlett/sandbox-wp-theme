@@ -5,7 +5,7 @@
 	<div class="sandbox-pricing-cards-wrapper">
 	<div class="sandbox-pricing-banner">
 		<h3 class="sandbox-pricing-banner-heading">New Bond Pricing! Only $9.99 per month!</h3>
-		<p>Just to save the planet!</p>
+		<p>Thank you to all of our users for helping us hit our critical user milestone, allowing us to offer reduced rates to all users, old and new.</p>
 	</div>
 </div>
 	<div class="sandbox-pricing-cards-wrapper">

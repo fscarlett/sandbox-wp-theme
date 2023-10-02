@@ -873,6 +873,7 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
   align-items: center;
   padding: 30px 10px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .sandbox-pricing-banner-heading {
@@ -883,6 +884,7 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 .sandbox-pricing-banner p {
   font-size: 2.4rem;
   margin: 10px 0;
+  max-width: 900px;
 }
 
 .sandbox-pricing-card {
