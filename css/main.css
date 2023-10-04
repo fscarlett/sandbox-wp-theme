@@ -392,6 +392,10 @@ body .sandbox-footer-container {
   font-size: 1.8rem;
 }
 
+.sandbox-footer-SET-logo-wrapper {
+  padding: 60px 0 20px;
+}
+
 ul#footer-menu {
   margin: 0;
 }
