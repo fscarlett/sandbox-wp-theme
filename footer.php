@@ -22,10 +22,10 @@
 						<img src="/wp-content/uploads/2023/02/sandbox-logo-mark-color-tm-large.png" width="200px" height="150px">
 					</div>
 					<div class="sandbox-footer-SET-logo-wrapper">
-					<img src="/wp-content/uploads/2023/10/SET-bar-example-screenshot.png" width="200px" height="150px">
+					<img src="/wp-content/uploads/2023/10/SET-bar-graphic-black-background.png" width="200px" height="150px">
 					</div>
 				</div>
-				<div class="sandbox-footer-col sandbox-footer-col-2">
+				<div class="sandbox-footer-col sandbox-footer-col-2"> 
 					<div class="footer-nav">
 				
 						<?php
