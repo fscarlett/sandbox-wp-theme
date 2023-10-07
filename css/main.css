@@ -1286,6 +1286,11 @@ body a.sandbox-citation-link {
   font-size: 18px;
 }
 
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+  font-size: 2.4rem;
+}
+
 @media screen and (max-width: 1200px) {
   body.page-template-page-blog aside#secondary ul {
     margin-left: 1em;
