@@ -1406,9 +1406,10 @@ body.page-id-25 .gform_wrapper {
 }
 
 .gform_footer .gform_button:hover {
-  color: inherit;
+  color: #000;
   text-decoration: underline;
-  background-color: #035;
+  border-color: #00a6b2;
+  background-color: #00a6b2;
   cursor: pointer;
 }
 
@@ -1470,6 +1471,7 @@ input.ctct-submit:hover {
   background-color: #00a6b2;
   color: #000;
   border-color: #00a6b2;
+  text-decoration: underline;
 }
 
 .ctct-disclosure {
