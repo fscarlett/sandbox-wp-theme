@@ -442,6 +442,10 @@ p.sandbox-footer-spaced {
   font-size: 20px;
 }
 
+.sandbox-footer-social-link:hover {
+  transform: rotate(10deg);
+}
+
 @media screen and (max-width: 1000px) {
   .sandbox-footer-col {
     padding: 50px 30px 50px;
@@ -966,6 +970,10 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 .sandbox-product-social-link:last-child {
   position: relative;
   top: 4px;
+}
+
+a.sandbox-product-social-link:hover {
+  transform: rotate(10deg);
 }
 
 @media screen and (max-width: 1200px) {
