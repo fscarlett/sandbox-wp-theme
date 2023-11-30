@@ -38,9 +38,8 @@ get_header();
 					</section>
 
 					<?php get_template_part( 'template-parts/sandbox-testimonials-section' ); ?> 
-
-
-
+					
+					<?php get_template_part( 'template-parts/sandbox-insta-section' ); ?>  
 
 
 				<?php
