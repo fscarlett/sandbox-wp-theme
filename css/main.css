@@ -518,6 +518,12 @@ body .sandbox-inner-container {
   padding: 0 25px;
 }
 
+body .sandbox-insta-container {
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 0 25px;
+}
+
 .sandbox-jumbo-cta-wrapper {
   height: 280px;
 }
