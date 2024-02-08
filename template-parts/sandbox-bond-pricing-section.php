@@ -13,7 +13,7 @@
 	<div class="sandbox-pricing-cards-wrapper">
 
 		<div class="sandbox-pricing-card">
-			<p>Free 30 Day Trial <br><br><br></p>
+			<p>Free 90 Day Trial <br><br><br></p>
 			<h3>Give it a shot</h3>
 			<ul class="sandbox-pricing-ul-separator">
 				<li>1 user</li>
