@@ -92,6 +92,15 @@ i.fa {
   z-index: 7000;
 }
 
+/* UTILS  */
+.add-mt-40 {
+  margin-top: 40px;
+}
+
+.add-mt-80 {
+  margin-top: 80px;
+}
+
 /* typography */
 
 h1,
@@ -1496,6 +1505,31 @@ body .ctct-form-wrapper .ctct-message.ctct-success {
   background-color: rgba(46, 204, 64, 0.02);
   border-color: #00a6b2;
   color: #00a6b2;
+  text-align: center;
+}
+
+body.page-id-12 input.ctct-submit {
+  font-size: 20px;
+  padding-bottom: 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body.page-id-12 input.ctct-submit:hover {
+  background-color: #fff;
+  color: #00a6b2;
+  border-color: #fff;
+  text-decoration: underline;
+}
+
+body.page-id-12 .ctct-form-wrapper .ctct-message.ctct-success {
+  background-color: rgba(46, 204, 64, 0.02);
+  border-color: #fff;
+  color: #fff;
   text-align: center;
 }
 
