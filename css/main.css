@@ -1078,6 +1078,13 @@ body.page-id-12 h3 {
   align-items: center;
 }
 
+/* ------ Bond Is Free area ----- */
+body .free-stamp-highlights {
+  transform: rotate(-16deg);
+  /* position: relative; */
+  /* top: -80px; */
+}
+
 /* ================= about ==============  */
 
 .page-template-page-about .entry-title {
