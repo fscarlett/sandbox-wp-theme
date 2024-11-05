@@ -649,8 +649,32 @@ body.search-results .sandbox-sidebar {
   background-color: #02818c;
 }
 
+/* ---------- Bond Is Free stamp area ----------- */
+body .free-stamp-home {
+  position: absolute;
+  right: -6px;
+  transform: rotate(-16deg);
+}
+
+.fox-pos-relative {
+  position: relative;
+}
+
 .sandbox-para-squeeze {
   max-width: 950px;
+  width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+  .sandbox-para-squeeze {
+    width: 100%;
+  }
+
+  body .free-stamp-home {
+    position: relative;
+    right: -6px;
+    transform: rotate(-16deg);
+  }
 }
 
 body #primary .sandbox-highlight-background .sandbox-product-section-link a {
@@ -833,6 +857,14 @@ body #primary .sandbox-highlight-background .sandbox-product-section-link a {
 .sandbox-bond-row {
   padding-bottom: 100px;
 }
+
+/* ------ Bond Is Free area ----- */
+body .free-stamp-product {
+  transform: rotate(-16deg);
+  position: relative;
+  top: -80px;
+}
+/* ----------------------------- */
 
 .sandbox-btn-cta a {
   margin: 30px 40px 0 0;
