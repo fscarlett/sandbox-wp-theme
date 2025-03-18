@@ -76,7 +76,7 @@
 				</div>
 			</div>
 			<div class="footer-sub">
-				<p>©2021 - 2024 Sandbox  All rights reserved </p>
+				<p>©2021 - 2025 Sandbox  All rights reserved </p>
 			</div>
 
 
