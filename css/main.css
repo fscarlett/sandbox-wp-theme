@@ -1602,3 +1602,9 @@ body.page-template-page-mawacalc main#primary {
 body.page-template-page-mawacalc main#primary * {
   color: #2463eb;
 }
+
+.sb-mawa-video-wrapper {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
