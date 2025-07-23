@@ -1591,3 +1591,14 @@ body.archive h2.entry-title {
     max-width: 60%;
   }
 }
+
+/* -------------------- MAWACALC LANDING PAGE ------------------- */
+
+body.page-template-page-mawacalc main#primary {
+  background: #fff;
+  color: #2463eb;
+}
+
+body.page-template-page-mawacalc main#primary * {
+  color: #2463eb;
+}
