@@ -1621,6 +1621,28 @@ body.page-template-page-mawacalc main#primary p {
   font-size: 2rem;
 }
 
+body.page-template-page-mawacalc
+  main#primary
+  .sb-mawa-button
+  .wp-block-button__link {
+  background-color: #5493fb !important;
+  /* background-color: #030e2b !important; */
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body.page-template-page-mawacalc
+  main#primary
+  .sb-mawa-button
+  .wp-block-button__link:hover {
+  background-color: #030e2b !important;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: underline;
+}
+
 .sb-mawa-video-wrapper {
   text-align: center;
   padding: 20px;
