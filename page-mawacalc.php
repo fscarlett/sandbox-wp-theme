@@ -44,8 +44,16 @@ get_header();
 						</div>
 
 					</div>
-				
-				
+				</div>
+
+				<div class="sandbox-mawacalc-wrapper">
+					<div class="sandbox-mawacalc-screenshots-wrapper">
+
+						<h2>App Screenshots:</h2>
+						<img src="/wp-content/uploads/2025/08/mawacalc-dashboard-ss.png" alt="Screenshot of MAWACalc app dashboard">
+
+						<img src="/wp-content/uploads/2025/08/mawacalc-app-ss-1.png" alt="Screenshot of MAWACalc app">
+					</div>
 				</div>
 
 				<?php
