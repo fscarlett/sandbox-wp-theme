@@ -1707,7 +1707,7 @@ body.page-template-page-mawacalc main#primary .sb-mawacalc-inner-content p {
   padding: 0 80px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .sandbox-mawacalc-wrapper {
     padding-top: 20px;
   }
@@ -1735,5 +1735,9 @@ body.page-template-page-mawacalc main#primary .sb-mawacalc-inner-content p {
   .sandbox-mawacalc-screenshots-wrapper {
     padding: 20px 0;
     gap: 40px;
+  }
+
+  .sandbox-mawacalc-screenshots-wrapper h2 {
+    font-size: 2.6rem;
   }
 }
