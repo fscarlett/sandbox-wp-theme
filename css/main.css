@@ -1708,11 +1708,32 @@ body.page-template-page-mawacalc main#primary .sb-mawacalc-inner-content p {
 }
 
 @media screen and (max-width: 800px) {
+  .sandbox-mawacalc-wrapper {
+    padding-top: 20px;
+  }
+
   .sb-mawacalc-row {
     flex-direction: column;
+    padding: 20px 0;
   }
 
   .sb-mawacalc-col {
     width: 100%;
+    padding: 10px 0;
+  }
+
+  .sb-mawacalc-col p {
+    margin: 10px 0 20px;
+  }
+
+  .sandbox-mawacalc-screenshots-wrapper img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .sandbox-mawacalc-screenshots-wrapper {
+    padding: 20px 0;
+    gap: 40px;
   }
 }
