@@ -53,6 +53,11 @@ get_header();
 						<img src="/wp-content/uploads/2025/08/mawacalc-dashboard-ss.png" alt="Screenshot of MAWACalc app dashboard">
 
 						<img src="/wp-content/uploads/2025/08/mawacalc-app-ss-1.png" alt="Screenshot of MAWACalc app">
+
+						<h2>PDF Report Sample:</h2>
+
+						<img src="/wp-content/uploads/2025/08/San-Rafael-Down-Town-2025-07-29-mwelo-scaled.png" alt="MAWACalc sample PDF Report">
+
 					</div>
 				</div>
 
